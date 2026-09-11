@@ -1,0 +1,93 @@
+{
+  "version": "paired_benchmark_sources_v1",
+  "purpose": "Complementary SQL and Cypher resources for multi-step cross-source queries and bridge resolution.",
+  "domains": [
+    {
+      "domain": "concert_singer",
+      "conversion": "sql_to_cypher_split",
+      "sql_resource": "data\\paired_benchmark\\sql_to_cypher\\concert_singer\\concert_singer_sql.sqlite",
+      "graph_records": "data\\paired_benchmark\\sql_to_cypher\\concert_singer\\graph_records.jsonl",
+      "cypher_import": "data\\paired_benchmark\\sql_to_cypher\\concert_singer\\concert_singer_graph.cypher",
+      "bridge_mappings": 12,
+      "sql_row_counts": {
+        "singer": 6
+      },
+      "graph_record_count": 37,
+      "source_design_validity": {
+        "business_split": "SQL keeps singer profile attributes; Cypher keeps concert participation and venue relationships.",
+        "intended_continuity": "same_entity_attribute_to_relationship_and_reverse",
+        "valid_case_pattern": "Identify a singer by profile attributes in SQL, then follow that singer to concerts or stadiums in the graph; or identify a singer through concert relationships in the graph, then retrieve singer profile attributes from SQL.",
+        "anti_pattern": "Do not bridge a singer to unrelated venue facts unless the question follows a concert participation path."
+      }
+    },
+    {
+      "domain": "network_1",
+      "conversion": "sql_to_cypher_split",
+      "sql_resource": "data\\paired_benchmark\\sql_to_cypher\\network_1\\network_1_sql.sqlite",
+      "graph_records": "data\\paired_benchmark\\sql_to_cypher\\network_1\\graph_records.jsonl",
+      "cypher_import": "data\\paired_benchmark\\sql_to_cypher\\network_1\\network_1_graph.cypher",
+      "bridge_mappings": 32,
+      "sql_row_counts": {
+        "Highschooler": 16
+      },
+      "graph_record_count": 46,
+      "source_design_validity": {
+        "business_split": "SQL keeps student profile attributes; Cypher keeps friendship and like relationships.",
+        "intended_continuity": "profile_to_social_relationship_and_reverse",
+        "valid_case_pattern": "Identify students by profile attributes in SQL, then inspect their social relationships in the graph; or identify a student through social relationships in the graph, then retrieve roster attributes from SQL.",
+        "anti_pattern": "Do not use arbitrary student attributes unless they are meaningful for a school or social-network task."
+      }
+    },
+    {
+      "domain": "wta_1",
+      "conversion": "sql_to_cypher_split",
+      "sql_resource": "data\\paired_benchmark\\sql_to_cypher\\wta_1\\wta_1_sql.sqlite",
+      "graph_records": "data\\paired_benchmark\\sql_to_cypher\\wta_1\\graph_records.jsonl",
+      "cypher_import": "data\\paired_benchmark\\sql_to_cypher\\wta_1\\wta_1_graph.cypher",
+      "bridge_mappings": 100,
+      "sql_row_counts": {
+        "players": 50,
+        "rankings": 27582
+      },
+      "graph_record_count": 1440,
+      "source_design_validity": {
+        "business_split": "SQL keeps player profile and ranking history; Cypher keeps match participation and outcomes.",
+        "intended_continuity": "ranking_or_metric_to_event_relationship_and_reverse",
+        "valid_case_pattern": "Identify a player by ranking or profile data in SQL, then inspect match outcomes in the graph; or identify a player through match relationships in the graph, then retrieve profile or ranking attributes from SQL.",
+        "anti_pattern": "Do not use graph-duplicated player display fields as the only reason to cross sources."
+      }
+    },
+    {
+      "domain": "star_wars",
+      "conversion": "cypher_to_sql_split",
+      "source_dataset": "data\\Cypher\\Mind-the-Query\\Datasets\\star-wars-data-importer.zip",
+      "sql_resource": "data\\paired_benchmark\\cypher_to_sql\\star_wars\\star_wars_sql.sqlite",
+      "graph_records": "data\\paired_benchmark\\cypher_to_sql\\star_wars\\graph_records.jsonl",
+      "cypher_import": "data\\paired_benchmark\\cypher_to_sql\\star_wars\\star_wars_graph.cypher",
+      "bridge_mappings": 260,
+      "sql_row_counts": {
+        "Planet": 60,
+        "Species": 37,
+        "Character": 82,
+        "Starship": 36,
+        "Film": 6,
+        "Vehicle": 39
+      },
+      "graph_record_count": 871,
+      "source_design_validity": {
+        "business_split": "Cypher keeps Star Wars entity relationships; SQL keeps detailed entity attributes.",
+        "intended_continuity": "graph_context_to_entity_attribute",
+        "valid_case_pattern": "Use graph relationships to identify an entity, then look up detailed attributes in SQL.",
+        "anti_pattern": "Do not bridge to an unrelated SQL entity type just because its ID is available."
+      }
+    }
+  ],
+  "bridge_gold_mappings": "data\\paired_benchmark\\bridge_gold_mappings.json",
+  "notes": [
+    "SQL resources keep attribute/filtering information.",
+    "Cypher resources keep relationship/path information.",
+    "Bridge mappings use stable original identifiers and are exact_unique by construction.",
+    "Bridge mappings are a technical inventory, not an automatic list of valid benchmark cases.",
+    "Valid cases must pass scenario continuity checks in data/paired_benchmark/case_schema_v1.json."
+  ]
+}

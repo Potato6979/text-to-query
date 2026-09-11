@@ -1,0 +1,9 @@
+faiss-cpu==1.13.2
+fastapi==0.135.2
+huggingface-hub==0.36.2
+neo4j==6.1.0
+numpy==2.4.4
+openai==2.29.0
+pydantic==2.12.5
+sentence-transformers==2.7.0
+uvicorn==0.42.0

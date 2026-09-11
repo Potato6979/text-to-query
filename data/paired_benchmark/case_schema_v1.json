@@ -1,0 +1,83 @@
+{
+  "schema_version": "paired_case_v1",
+  "purpose": "Authoring schema for paired SQL/Cypher benchmark cases built on data/paired_benchmark sources.",
+  "case_levels": {
+    "L1_single_sql": "Single-step SQL case over one SQL resource.",
+    "L1_single_cypher": "Single-step Cypher case over one graph resource.",
+    "L2_nested_single_query": "Single query that requires nested SQL/Cypher shape such as subquery, CTE, WITH scope, grouped ranking, or comparison to aggregate.",
+    "L3_same_source_multi_step": "Two-step query within the same modality/resource family using a hard constraint from step 1.",
+    "L4_cross_source_resolved": "Two-step SQL/Cypher or Cypher/SQL case requiring resolved bridge mappings. A resolved case may bind one entity or a controlled set of entities.",
+    "L5_bridge_safety_negative": "Bridge safety case where the correct behavior is unresolved, ambiguous, missing input, or blocked rather than a final hard-bound answer."
+  },
+  "resource_id_rule": {
+    "sql": "<domain>_sql",
+    "cypher": "<domain>_graph"
+  },
+  "required_case_fields": [
+    "id",
+    "level",
+    "case_kind",
+    "domain",
+    "scenario",
+    "question",
+    "evaluation_type",
+    "steps"
+  ],
+  "case_kind": {
+    "answerable_case": "The task should return a normal answer and is evaluated by gold results.",
+    "safety_case": "The task is designed to test unsafe bridge handling and is evaluated by runtime state rather than answer correctness."
+  },
+  "scenario_validity": {
+    "purpose": "A bridge is not enough to justify a case. Cross-source cases must also be realistic from a user or production perspective.",
+    "required_fields": {
+      "user_role": "Who would ask this question.",
+      "business_context": "Why this data is split across SQL and graph stores.",
+      "why_steps_are_continuous": "Why step 1 output is a natural input to step 2.",
+      "why_cross_source_is_needed": "Why one source alone cannot answer the full question.",
+      "single_source_insufficient": "Must be true for L4/L5 cross-source cases.",
+      "continuity_type": "Controlled tag describing the semantic handoff."
+    },
+    "allowed_continuity_types": [
+      "same_entity_attribute_to_relationship",
+      "same_entity_relationship_to_attribute",
+      "profile_to_social_relationship",
+      "ranking_or_metric_to_event_relationship",
+      "graph_context_to_entity_attribute",
+      "bridge_safety_ambiguity",
+      "bridge_safety_unresolved",
+      "bridge_safety_missing_input",
+      "bridge_safety_cross_domain_mismatch"
+    ],
+    "anti_patterns": [
+      "Using a bridge only because two IDs or strings match.",
+      "Passing an entity into an unrelated domain action.",
+      "Using arbitrary properties such as name length unless the scenario justifies them.",
+      "Designing a cross-source case that either source can answer completely by itself."
+    ]
+  },
+  "step_fields": {
+    "step_id": "MS1, MS2, or S1 for single-step cases.",
+    "query_type": "sql or cypher.",
+    "resource_id": "Must match manifest resources such as concert_singer_sql or star_wars_graph.",
+    "goal": "Human-readable step goal.",
+    "gold_query": "Executable SQL or Cypher for this step.",
+    "output_contract": "Entity type, primary field, and expected variable role exposed by this step.",
+    "input_contracts": "Variables consumed from previous steps."
+  },
+  "bridge_requirement_fields": {
+    "bridge_id": "BR1, BR2, etc.",
+    "mapping_id": "Single bridge mapping id. Optional for negative cases; use for resolved one-entity cases.",
+    "mapping_ids": "List of bridge mapping ids. Optional for negative cases; use for resolved many-entity cases.",
+    "from_step": "Source step id.",
+    "to_step": "Target step id.",
+    "required_cardinality": "one or many. Resolved L4 cases must declare whether the bridge should bind one entity or a controlled set of entities.",
+    "expected_runtime_status": "resolved, unresolved_soft_context, ambiguous_soft_context, missing_input, or blocked.",
+    "expected_match_type": "exact_unique for one-entity resolved bridge cases; exact_unique_many for controlled many-entity bridge cases."
+  },
+  "evaluation_types": [
+    "gold_result_equivalence",
+    "step_gold_result_equivalence",
+    "runtime_state_observation",
+    "bridge_safety_observation"
+  ]
+}

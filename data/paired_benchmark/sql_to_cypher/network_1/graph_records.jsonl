@@ -1,0 +1,46 @@
+{"end": null, "id": "network_1:student:1025", "kind": "node", "label": "Highschooler", "properties": {"name": "John", "student_id": "1025"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1101", "kind": "node", "label": "Highschooler", "properties": {"name": "Haley", "student_id": "1101"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1247", "kind": "node", "label": "Highschooler", "properties": {"name": "Alexis", "student_id": "1247"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1304", "kind": "node", "label": "Highschooler", "properties": {"name": "Jordan", "student_id": "1304"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1316", "kind": "node", "label": "Highschooler", "properties": {"name": "Austin", "student_id": "1316"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1381", "kind": "node", "label": "Highschooler", "properties": {"name": "Tiffany", "student_id": "1381"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1468", "kind": "node", "label": "Highschooler", "properties": {"name": "Kris", "student_id": "1468"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1501", "kind": "node", "label": "Highschooler", "properties": {"name": "Jessica", "student_id": "1501"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1510", "kind": "node", "label": "Highschooler", "properties": {"name": "Jordan", "student_id": "1510"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1641", "kind": "node", "label": "Highschooler", "properties": {"name": "Brittany", "student_id": "1641"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1661", "kind": "node", "label": "Highschooler", "properties": {"name": "Logan", "student_id": "1661"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1689", "kind": "node", "label": "Highschooler", "properties": {"name": "Gabriel", "student_id": "1689"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1709", "kind": "node", "label": "Highschooler", "properties": {"name": "Cassandra", "student_id": "1709"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1782", "kind": "node", "label": "Highschooler", "properties": {"name": "Andrew", "student_id": "1782"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1911", "kind": "node", "label": "Highschooler", "properties": {"name": "Gabriel", "student_id": "1911"}, "start": null, "type": null}
+{"end": null, "id": "network_1:student:1934", "kind": "node", "label": "Highschooler", "properties": {"name": "Kyle", "student_id": "1934"}, "start": null, "type": null}
+{"end": "network_1:student:1641", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1101", "type": "FRIEND"}
+{"end": "network_1:student:1501", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1247", "type": "FRIEND"}
+{"end": "network_1:student:1911", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1247", "type": "FRIEND"}
+{"end": "network_1:student:1661", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1304", "type": "FRIEND"}
+{"end": "network_1:student:1934", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1316", "type": "FRIEND"}
+{"end": "network_1:student:1247", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1381", "type": "FRIEND"}
+{"end": "network_1:student:1101", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1468", "type": "FRIEND"}
+{"end": "network_1:student:1641", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1468", "type": "FRIEND"}
+{"end": "network_1:student:1934", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1501", "type": "FRIEND"}
+{"end": "network_1:student:1381", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1510", "type": "FRIEND"}
+{"end": "network_1:student:1689", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1510", "type": "FRIEND"}
+{"end": "network_1:student:1025", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1661", "type": "FRIEND"}
+{"end": "network_1:student:1709", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1689", "type": "FRIEND"}
+{"end": "network_1:student:1782", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1689", "type": "FRIEND"}
+{"end": "network_1:student:1247", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1709", "type": "FRIEND"}
+{"end": "network_1:student:1304", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1782", "type": "FRIEND"}
+{"end": "network_1:student:1316", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1782", "type": "FRIEND"}
+{"end": "network_1:student:1468", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1782", "type": "FRIEND"}
+{"end": "network_1:student:1501", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1911", "type": "FRIEND"}
+{"end": "network_1:student:1304", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1934", "type": "FRIEND"}
+{"end": "network_1:student:1101", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1025", "type": "LIKES"}
+{"end": "network_1:student:1468", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1247", "type": "LIKES"}
+{"end": "network_1:student:1304", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1316", "type": "LIKES"}
+{"end": "network_1:student:1934", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1501", "type": "LIKES"}
+{"end": "network_1:student:1468", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1641", "type": "LIKES"}
+{"end": "network_1:student:1709", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1689", "type": "LIKES"}
+{"end": "network_1:student:1689", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1709", "type": "LIKES"}
+{"end": "network_1:student:1709", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1782", "type": "LIKES"}
+{"end": "network_1:student:1247", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1911", "type": "LIKES"}
+{"end": "network_1:student:1501", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "network_1:student:1934", "type": "LIKES"}

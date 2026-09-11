@@ -1,0 +1,1495 @@
+{
+  "version": "paired_benchmark_resource_index_v1",
+  "source_manifest": "data\\paired_benchmark\\manifest.json",
+  "graph_database_strategy": "domain_isolated",
+  "aggregate_neo4j_database": "pairedbenchmark",
+  "graph_databases": {
+    "concert_singer": "pbconcertsinger",
+    "network_1": "pbnetwork1",
+    "wta_1": "pbwta1",
+    "star_wars": "pbstarwars"
+  },
+  "resources": {
+    "concert_singer_sql": {
+      "resource_id": "concert_singer_sql",
+      "domain": "concert_singer",
+      "query_type": "sql",
+      "resource_path": "data\\paired_benchmark\\sql_to_cypher\\concert_singer\\concert_singer_sql.sqlite",
+      "schema_records": [
+        {
+          "resource_id": "concert_singer_sql",
+          "table": "singer",
+          "columns": [
+            {
+              "name": "Singer_ID",
+              "type": "INT"
+            },
+            {
+              "name": "Name",
+              "type": "TEXT"
+            },
+            {
+              "name": "Country",
+              "type": "TEXT"
+            },
+            {
+              "name": "Song_Name",
+              "type": "TEXT"
+            },
+            {
+              "name": "Song_release_year",
+              "type": "TEXT"
+            },
+            {
+              "name": "Age",
+              "type": "INT"
+            },
+            {
+              "name": "Is_male",
+              "type": "bool"
+            }
+          ],
+          "text": "concert_singer_sql.singer: Singer_ID(INT), Name(TEXT), Country(TEXT), Song_Name(TEXT), Song_release_year(TEXT), Age(INT), Is_male(bool) sample: Singer_ID=1, Name=Joe Sharp, Country=Netherlands, Song_Name=You, Song_release_year=1992, Age=52, Is_male=F"
+        }
+      ],
+      "tables": [
+        {
+          "table": "singer",
+          "columns": [
+            {
+              "name": "Singer_ID",
+              "type": "INT"
+            },
+            {
+              "name": "Name",
+              "type": "TEXT"
+            },
+            {
+              "name": "Country",
+              "type": "TEXT"
+            },
+            {
+              "name": "Song_Name",
+              "type": "TEXT"
+            },
+            {
+              "name": "Song_release_year",
+              "type": "TEXT"
+            },
+            {
+              "name": "Age",
+              "type": "INT"
+            },
+            {
+              "name": "Is_male",
+              "type": "bool"
+            }
+          ]
+        }
+      ]
+    },
+    "concert_singer_graph": {
+      "resource_id": "concert_singer_graph",
+      "domain": "concert_singer",
+      "query_type": "cypher",
+      "neo4j_database": "pbconcertsinger",
+      "cypher_import": "data\\paired_benchmark\\sql_to_cypher\\concert_singer\\concert_singer_graph.cypher",
+      "graph_records": "data\\paired_benchmark\\sql_to_cypher\\concert_singer\\graph_records.jsonl",
+      "schema_records": [
+        {
+          "resource_id": "concert_singer_graph",
+          "type": "node",
+          "label": "Concert",
+          "properties": [
+            "concert_id",
+            "name",
+            "theme",
+            "year"
+          ],
+          "text": "concert_singer_graph.Concert: concert_id(property), name(property), theme(property), year(property) sample: concert_id=1, name=Auditions, theme=Free choice, year=2014"
+        },
+        {
+          "resource_id": "concert_singer_graph",
+          "type": "node",
+          "label": "Singer",
+          "properties": [
+            "name",
+            "singer_id"
+          ],
+          "text": "concert_singer_graph.Singer: name(property), singer_id(property) sample: name=Joe Sharp, singer_id=1"
+        },
+        {
+          "resource_id": "concert_singer_graph",
+          "type": "node",
+          "label": "Stadium",
+          "properties": [
+            "average_attendance",
+            "capacity",
+            "highest_attendance",
+            "location",
+            "lowest_attendance",
+            "name",
+            "stadium_id"
+          ],
+          "text": "concert_singer_graph.Stadium: average_attendance(property), capacity(property), highest_attendance(property), location(property), lowest_attendance(property), name(property), stadium_id(property) sample: average_attendance=2106, capacity=10104, highest_attendance=4812, location=Raith Rovers"
+        },
+        {
+          "resource_id": "concert_singer_graph",
+          "type": "rel",
+          "label": "HELD_AT",
+          "start": "Concert",
+          "end": "Stadium",
+          "text": "concert_singer_graph [HELD_AT]: (:Concert)-[:HELD_AT]->(:Stadium)"
+        },
+        {
+          "resource_id": "concert_singer_graph",
+          "type": "rel",
+          "label": "PERFORMED_IN",
+          "start": "Singer",
+          "end": "Concert",
+          "text": "concert_singer_graph [PERFORMED_IN]: (:Singer)-[:PERFORMED_IN]->(:Concert)"
+        }
+      ],
+      "node_labels": [
+        {
+          "label": "Concert",
+          "properties": [
+            "concert_id",
+            "name",
+            "theme",
+            "year"
+          ]
+        },
+        {
+          "label": "Singer",
+          "properties": [
+            "name",
+            "singer_id"
+          ]
+        },
+        {
+          "label": "Stadium",
+          "properties": [
+            "average_attendance",
+            "capacity",
+            "highest_attendance",
+            "location",
+            "lowest_attendance",
+            "name",
+            "stadium_id"
+          ]
+        }
+      ],
+      "relationship_types": [
+        {
+          "type": "HELD_AT",
+          "from": "Concert",
+          "to": "Stadium"
+        },
+        {
+          "type": "PERFORMED_IN",
+          "from": "Singer",
+          "to": "Concert"
+        }
+      ]
+    },
+    "network_1_sql": {
+      "resource_id": "network_1_sql",
+      "domain": "network_1",
+      "query_type": "sql",
+      "resource_path": "data\\paired_benchmark\\sql_to_cypher\\network_1\\network_1_sql.sqlite",
+      "schema_records": [
+        {
+          "resource_id": "network_1_sql",
+          "table": "Highschooler",
+          "columns": [
+            {
+              "name": "ID",
+              "type": "INT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "grade",
+              "type": "INT"
+            }
+          ],
+          "text": "network_1_sql.Highschooler: ID(INT), name(TEXT), grade(INT) sample: ID=1510, name=Jordan, grade=9"
+        }
+      ],
+      "tables": [
+        {
+          "table": "Highschooler",
+          "columns": [
+            {
+              "name": "ID",
+              "type": "INT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "grade",
+              "type": "INT"
+            }
+          ]
+        }
+      ]
+    },
+    "network_1_graph": {
+      "resource_id": "network_1_graph",
+      "domain": "network_1",
+      "query_type": "cypher",
+      "neo4j_database": "pbnetwork1",
+      "cypher_import": "data\\paired_benchmark\\sql_to_cypher\\network_1\\network_1_graph.cypher",
+      "graph_records": "data\\paired_benchmark\\sql_to_cypher\\network_1\\graph_records.jsonl",
+      "schema_records": [
+        {
+          "resource_id": "network_1_graph",
+          "type": "node",
+          "label": "Highschooler",
+          "properties": [
+            "name",
+            "student_id"
+          ],
+          "text": "network_1_graph.Highschooler: name(property), student_id(property) sample: name=John, student_id=1025"
+        },
+        {
+          "resource_id": "network_1_graph",
+          "type": "rel",
+          "label": "FRIEND",
+          "start": "Highschooler",
+          "end": "Highschooler",
+          "text": "network_1_graph [FRIEND]: (:Highschooler)-[:FRIEND]->(:Highschooler)"
+        },
+        {
+          "resource_id": "network_1_graph",
+          "type": "rel",
+          "label": "LIKES",
+          "start": "Highschooler",
+          "end": "Highschooler",
+          "text": "network_1_graph [LIKES]: (:Highschooler)-[:LIKES]->(:Highschooler)"
+        }
+      ],
+      "node_labels": [
+        {
+          "label": "Highschooler",
+          "properties": [
+            "name",
+            "student_id"
+          ]
+        }
+      ],
+      "relationship_types": [
+        {
+          "type": "FRIEND",
+          "from": "Highschooler",
+          "to": "Highschooler"
+        },
+        {
+          "type": "LIKES",
+          "from": "Highschooler",
+          "to": "Highschooler"
+        }
+      ]
+    },
+    "wta_1_sql": {
+      "resource_id": "wta_1_sql",
+      "domain": "wta_1",
+      "query_type": "sql",
+      "resource_path": "data\\paired_benchmark\\sql_to_cypher\\wta_1\\wta_1_sql.sqlite",
+      "schema_records": [
+        {
+          "resource_id": "wta_1_sql",
+          "table": "players",
+          "columns": [
+            {
+              "name": "player_id",
+              "type": "INT"
+            },
+            {
+              "name": "first_name",
+              "type": "TEXT"
+            },
+            {
+              "name": "last_name",
+              "type": "TEXT"
+            },
+            {
+              "name": "hand",
+              "type": "TEXT"
+            },
+            {
+              "name": "birth_date",
+              "type": "DATE"
+            },
+            {
+              "name": "country_code",
+              "type": "TEXT"
+            }
+          ],
+          "text": "wta_1_sql.players: player_id(INT), first_name(TEXT), last_name(TEXT), hand(TEXT), birth_date(DATE), country_code(TEXT) sample: player_id=200033, first_name=Serena, last_name=Williams, hand=R, birth_date=19810926, country_code=USA"
+        },
+        {
+          "resource_id": "wta_1_sql",
+          "table": "rankings",
+          "columns": [
+            {
+              "name": "ranking_date",
+              "type": "DATE"
+            },
+            {
+              "name": "ranking",
+              "type": "INT"
+            },
+            {
+              "name": "player_id",
+              "type": "INT"
+            },
+            {
+              "name": "ranking_points",
+              "type": "INT"
+            },
+            {
+              "name": "tours",
+              "type": "INT"
+            }
+          ],
+          "text": "wta_1_sql.rankings: ranking_date(DATE), ranking(INT), player_id(INT), ranking_points(INT), tours(INT) sample: ranking_date=20000101, ranking=3, player_id=200748, ranking_points=4378, tours=13"
+        }
+      ],
+      "tables": [
+        {
+          "table": "players",
+          "columns": [
+            {
+              "name": "player_id",
+              "type": "INT"
+            },
+            {
+              "name": "first_name",
+              "type": "TEXT"
+            },
+            {
+              "name": "last_name",
+              "type": "TEXT"
+            },
+            {
+              "name": "hand",
+              "type": "TEXT"
+            },
+            {
+              "name": "birth_date",
+              "type": "DATE"
+            },
+            {
+              "name": "country_code",
+              "type": "TEXT"
+            }
+          ]
+        },
+        {
+          "table": "rankings",
+          "columns": [
+            {
+              "name": "ranking_date",
+              "type": "DATE"
+            },
+            {
+              "name": "ranking",
+              "type": "INT"
+            },
+            {
+              "name": "player_id",
+              "type": "INT"
+            },
+            {
+              "name": "ranking_points",
+              "type": "INT"
+            },
+            {
+              "name": "tours",
+              "type": "INT"
+            }
+          ]
+        }
+      ]
+    },
+    "wta_1_graph": {
+      "resource_id": "wta_1_graph",
+      "domain": "wta_1",
+      "query_type": "cypher",
+      "neo4j_database": "pbwta1",
+      "cypher_import": "data\\paired_benchmark\\sql_to_cypher\\wta_1\\wta_1_graph.cypher",
+      "graph_records": "data\\paired_benchmark\\sql_to_cypher\\wta_1\\graph_records.jsonl",
+      "schema_records": [
+        {
+          "resource_id": "wta_1_graph",
+          "type": "node",
+          "label": "Match",
+          "properties": [
+            "match_id",
+            "minutes",
+            "round",
+            "score",
+            "surface",
+            "tourney_id",
+            "tourney_name",
+            "year"
+          ],
+          "text": "wta_1_graph.Match: match_id(property), minutes(property), round(property), score(property), surface(property), tourney_id(property), tourney_name(property), year(property) sample: match_id=39765, minutes=82, round=RR, score=6-2 6-4"
+        },
+        {
+          "resource_id": "wta_1_graph",
+          "type": "node",
+          "label": "Player",
+          "properties": [
+            "country_code",
+            "first_name",
+            "last_name",
+            "name",
+            "player_id"
+          ],
+          "text": "wta_1_graph.Player: country_code(property), first_name(property), last_name(property), name(property), player_id(property) sample: country_code=USA, first_name=Serena, last_name=Williams, name=Serena Williams"
+        },
+        {
+          "resource_id": "wta_1_graph",
+          "type": "rel",
+          "label": "LOST",
+          "start": "Player",
+          "end": "Match",
+          "text": "wta_1_graph [LOST]: (:Player)-[:LOST]->(:Match)"
+        },
+        {
+          "resource_id": "wta_1_graph",
+          "type": "rel",
+          "label": "PLAYED_IN",
+          "start": "Player",
+          "end": "Match",
+          "text": "wta_1_graph [PLAYED_IN]: (:Player)-[:PLAYED_IN]->(:Match)"
+        },
+        {
+          "resource_id": "wta_1_graph",
+          "type": "rel",
+          "label": "WON",
+          "start": "Player",
+          "end": "Match",
+          "text": "wta_1_graph [WON]: (:Player)-[:WON]->(:Match)"
+        }
+      ],
+      "node_labels": [
+        {
+          "label": "Match",
+          "properties": [
+            "match_id",
+            "minutes",
+            "round",
+            "score",
+            "surface",
+            "tourney_id",
+            "tourney_name",
+            "year"
+          ]
+        },
+        {
+          "label": "Player",
+          "properties": [
+            "country_code",
+            "first_name",
+            "last_name",
+            "name",
+            "player_id"
+          ]
+        }
+      ],
+      "relationship_types": [
+        {
+          "type": "LOST",
+          "from": "Player",
+          "to": "Match"
+        },
+        {
+          "type": "PLAYED_IN",
+          "from": "Player",
+          "to": "Match"
+        },
+        {
+          "type": "WON",
+          "from": "Player",
+          "to": "Match"
+        }
+      ]
+    },
+    "star_wars_sql": {
+      "resource_id": "star_wars_sql",
+      "domain": "star_wars",
+      "query_type": "sql",
+      "resource_path": "data\\paired_benchmark\\cypher_to_sql\\star_wars\\star_wars_sql.sqlite",
+      "schema_records": [
+        {
+          "resource_id": "star_wars_sql",
+          "table": "Character",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "birth_year",
+              "type": "TEXT"
+            },
+            {
+              "name": "eye_color",
+              "type": "TEXT"
+            },
+            {
+              "name": "height",
+              "type": "TEXT"
+            },
+            {
+              "name": "gender",
+              "type": "TEXT"
+            },
+            {
+              "name": "skin_color",
+              "type": "TEXT"
+            },
+            {
+              "name": "mass",
+              "type": "TEXT"
+            },
+            {
+              "name": "hair_color",
+              "type": "TEXT"
+            }
+          ],
+          "text": "star_wars_sql.Character: id(TEXT), created(TEXT), edited(TEXT), url(TEXT), name(TEXT), birth_year(TEXT), eye_color(TEXT), height(TEXT), gender(TEXT), skin_color(TEXT), mass(TEXT), hair_color(TEXT) sample: id=6, created=2014-12-09T13:50:51.644000Z, edited=2014-12-20T21:17:56.891000Z, url=https://swapi.dev/api/people/1/, name=Luke Skywalker, birth_year=19BBY, eye_color=blue, height=172, gender=male, skin_color=fair, mass=77, hair_color=blond"
+        },
+        {
+          "resource_id": "star_wars_sql",
+          "table": "Film",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "producer",
+              "type": "TEXT"
+            },
+            {
+              "name": "title",
+              "type": "TEXT"
+            },
+            {
+              "name": "release_date",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "director",
+              "type": "TEXT"
+            },
+            {
+              "name": "opening_crawl",
+              "type": "TEXT"
+            },
+            {
+              "name": "episode_id",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            }
+          ],
+          "text": "star_wars_sql.Film: id(TEXT), producer(TEXT), title(TEXT), release_date(TEXT), created(TEXT), director(TEXT), opening_crawl(TEXT), episode_id(TEXT), edited(TEXT), url(TEXT) sample: id=0, producer=Gary Kurtz, Rick McCallum, title=A New Hope, release_date=1977-05-25, created=2014-12-10T14:23:31.880000Z, director=George Lucas, opening_crawl=It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy...., episode_id=4, edited=2014-12-20T19:49:45.256000Z, url=https://swapi.dev/api/films/1/"
+        },
+        {
+          "resource_id": "star_wars_sql",
+          "table": "Planet",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "gravity",
+              "type": "TEXT"
+            },
+            {
+              "name": "terrain",
+              "type": "TEXT"
+            },
+            {
+              "name": "population",
+              "type": "TEXT"
+            },
+            {
+              "name": "orbital_period",
+              "type": "TEXT"
+            },
+            {
+              "name": "surface_water",
+              "type": "TEXT"
+            },
+            {
+              "name": "diameter",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "climate",
+              "type": "TEXT"
+            },
+            {
+              "name": "rotation_period",
+              "type": "TEXT"
+            }
+          ],
+          "text": "star_wars_sql.Planet: id(TEXT), created(TEXT), edited(TEXT), gravity(TEXT), terrain(TEXT), population(TEXT), orbital_period(TEXT), surface_water(TEXT), diameter(TEXT), url(TEXT), name(TEXT), climate(TEXT), rotation_period(TEXT) sample: id=88, created=2014-12-09T13:50:49.641000Z, edited=2014-12-20T20:58:18.411000Z, gravity=1 standard, terrain=desert, population=200000, orbital_period=304, surface_water=1, diameter=10465, url=https://swapi.dev/api/planets/1/, name=Tatooine, climate=arid, rotation_period=23"
+        },
+        {
+          "resource_id": "star_wars_sql",
+          "table": "Species",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "designation",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "hair_colors",
+              "type": "TEXT"
+            },
+            {
+              "name": "average_lifespan",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "language",
+              "type": "TEXT"
+            },
+            {
+              "name": "classification",
+              "type": "TEXT"
+            },
+            {
+              "name": "skin_colors",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "eye_colors",
+              "type": "TEXT"
+            },
+            {
+              "name": "average_height",
+              "type": "TEXT"
+            }
+          ],
+          "text": "star_wars_sql.Species: id(TEXT), designation(TEXT), created(TEXT), hair_colors(TEXT), average_lifespan(TEXT), edited(TEXT), language(TEXT), classification(TEXT), skin_colors(TEXT), url(TEXT), name(TEXT), eye_colors(TEXT), average_height(TEXT) sample: id=148, designation=sentient, created=2014-12-10T13:52:11.567000Z, hair_colors=blonde, brown, black, red, average_lifespan=120, edited=2014-12-20T21:36:42.136000Z, language=Galactic Basic, classification=mammal, skin_colors=caucasian, black, asian, hispanic, url=https://swapi.dev/api/species/1/, name=Human, eye_colors=brown, blue, green, hazel, grey, amber, average_height=180"
+        },
+        {
+          "resource_id": "star_wars_sql",
+          "table": "Starship",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "consumables",
+              "type": "TEXT"
+            },
+            {
+              "name": "max_atmosphering_speed",
+              "type": "TEXT"
+            },
+            {
+              "name": "cargo_capacity",
+              "type": "TEXT"
+            },
+            {
+              "name": "passengers",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "starship_class",
+              "type": "TEXT"
+            },
+            {
+              "name": "model",
+              "type": "TEXT"
+            },
+            {
+              "name": "MGLT",
+              "type": "TEXT"
+            },
+            {
+              "name": "hyperdrive_rating",
+              "type": "TEXT"
+            },
+            {
+              "name": "manufacturer",
+              "type": "TEXT"
+            },
+            {
+              "name": "length",
+              "type": "TEXT"
+            },
+            {
+              "name": "crew",
+              "type": "TEXT"
+            },
+            {
+              "name": "cost_in_credits",
+              "type": "TEXT"
+            }
+          ],
+          "text": "star_wars_sql.Starship: id(TEXT), consumables(TEXT), max_atmosphering_speed(TEXT), cargo_capacity(TEXT), passengers(TEXT), created(TEXT), edited(TEXT), url(TEXT), name(TEXT), starship_class(TEXT), model(TEXT), MGLT(TEXT), hyperdrive_rating(TEXT), manufacturer(TEXT), length(TEXT), crew(TEXT), cost_in_credits(TEXT) sample: id=224, consumables=1 year, max_atmosphering_speed=950, cargo_capacity=3000000, passengers=600, created=2014-12-10T14:20:33.369000Z, edited=2014-12-20T21:23:49.867000Z, url=https://swapi.dev/api/starships/2/, name=CR90 corvette, starship_class=corvette, model=CR90 corvette, MGLT=60, hyperdrive_rating=2.0, manufacturer=Corellian Engineering Corporation, length=150, crew=30-165, cost_in_credits=3500000"
+        },
+        {
+          "resource_id": "star_wars_sql",
+          "table": "Vehicle",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "consumables",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "cargo_capacity",
+              "type": "TEXT"
+            },
+            {
+              "name": "passengers",
+              "type": "TEXT"
+            },
+            {
+              "name": "cost_in_credits",
+              "type": "TEXT"
+            },
+            {
+              "name": "model",
+              "type": "TEXT"
+            },
+            {
+              "name": "max_atmosphering_speed",
+              "type": "TEXT"
+            },
+            {
+              "name": "manufacturer",
+              "type": "TEXT"
+            },
+            {
+              "name": "length",
+              "type": "TEXT"
+            },
+            {
+              "name": "crew",
+              "type": "TEXT"
+            },
+            {
+              "name": "vehicle_class",
+              "type": "TEXT"
+            }
+          ],
+          "text": "star_wars_sql.Vehicle: id(TEXT), consumables(TEXT), created(TEXT), edited(TEXT), url(TEXT), name(TEXT), cargo_capacity(TEXT), passengers(TEXT), cost_in_credits(TEXT), model(TEXT), max_atmosphering_speed(TEXT), manufacturer(TEXT), length(TEXT), crew(TEXT), vehicle_class(TEXT) sample: id=185, consumables=2 months, created=2014-12-10T15:36:25.724000Z, edited=2014-12-20T21:30:21.661000Z, url=https://swapi.dev/api/vehicles/4/, name=Sand Crawler, cargo_capacity=50000, passengers=30, cost_in_credits=150000, model=Digger Crawler, max_atmosphering_speed=30, manufacturer=Corellia Mining Corporation, length=36.8 , crew=46, vehicle_class=wheeled"
+        }
+      ],
+      "tables": [
+        {
+          "table": "Character",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "birth_year",
+              "type": "TEXT"
+            },
+            {
+              "name": "eye_color",
+              "type": "TEXT"
+            },
+            {
+              "name": "height",
+              "type": "TEXT"
+            },
+            {
+              "name": "gender",
+              "type": "TEXT"
+            },
+            {
+              "name": "skin_color",
+              "type": "TEXT"
+            },
+            {
+              "name": "mass",
+              "type": "TEXT"
+            },
+            {
+              "name": "hair_color",
+              "type": "TEXT"
+            }
+          ]
+        },
+        {
+          "table": "Film",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "producer",
+              "type": "TEXT"
+            },
+            {
+              "name": "title",
+              "type": "TEXT"
+            },
+            {
+              "name": "release_date",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "director",
+              "type": "TEXT"
+            },
+            {
+              "name": "opening_crawl",
+              "type": "TEXT"
+            },
+            {
+              "name": "episode_id",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            }
+          ]
+        },
+        {
+          "table": "Planet",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "gravity",
+              "type": "TEXT"
+            },
+            {
+              "name": "terrain",
+              "type": "TEXT"
+            },
+            {
+              "name": "population",
+              "type": "TEXT"
+            },
+            {
+              "name": "orbital_period",
+              "type": "TEXT"
+            },
+            {
+              "name": "surface_water",
+              "type": "TEXT"
+            },
+            {
+              "name": "diameter",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "climate",
+              "type": "TEXT"
+            },
+            {
+              "name": "rotation_period",
+              "type": "TEXT"
+            }
+          ]
+        },
+        {
+          "table": "Species",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "designation",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "hair_colors",
+              "type": "TEXT"
+            },
+            {
+              "name": "average_lifespan",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "language",
+              "type": "TEXT"
+            },
+            {
+              "name": "classification",
+              "type": "TEXT"
+            },
+            {
+              "name": "skin_colors",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "eye_colors",
+              "type": "TEXT"
+            },
+            {
+              "name": "average_height",
+              "type": "TEXT"
+            }
+          ]
+        },
+        {
+          "table": "Starship",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "consumables",
+              "type": "TEXT"
+            },
+            {
+              "name": "max_atmosphering_speed",
+              "type": "TEXT"
+            },
+            {
+              "name": "cargo_capacity",
+              "type": "TEXT"
+            },
+            {
+              "name": "passengers",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "starship_class",
+              "type": "TEXT"
+            },
+            {
+              "name": "model",
+              "type": "TEXT"
+            },
+            {
+              "name": "MGLT",
+              "type": "TEXT"
+            },
+            {
+              "name": "hyperdrive_rating",
+              "type": "TEXT"
+            },
+            {
+              "name": "manufacturer",
+              "type": "TEXT"
+            },
+            {
+              "name": "length",
+              "type": "TEXT"
+            },
+            {
+              "name": "crew",
+              "type": "TEXT"
+            },
+            {
+              "name": "cost_in_credits",
+              "type": "TEXT"
+            }
+          ]
+        },
+        {
+          "table": "Vehicle",
+          "columns": [
+            {
+              "name": "id",
+              "type": "TEXT"
+            },
+            {
+              "name": "consumables",
+              "type": "TEXT"
+            },
+            {
+              "name": "created",
+              "type": "TEXT"
+            },
+            {
+              "name": "edited",
+              "type": "TEXT"
+            },
+            {
+              "name": "url",
+              "type": "TEXT"
+            },
+            {
+              "name": "name",
+              "type": "TEXT"
+            },
+            {
+              "name": "cargo_capacity",
+              "type": "TEXT"
+            },
+            {
+              "name": "passengers",
+              "type": "TEXT"
+            },
+            {
+              "name": "cost_in_credits",
+              "type": "TEXT"
+            },
+            {
+              "name": "model",
+              "type": "TEXT"
+            },
+            {
+              "name": "max_atmosphering_speed",
+              "type": "TEXT"
+            },
+            {
+              "name": "manufacturer",
+              "type": "TEXT"
+            },
+            {
+              "name": "length",
+              "type": "TEXT"
+            },
+            {
+              "name": "crew",
+              "type": "TEXT"
+            },
+            {
+              "name": "vehicle_class",
+              "type": "TEXT"
+            }
+          ]
+        }
+      ]
+    },
+    "star_wars_graph": {
+      "resource_id": "star_wars_graph",
+      "domain": "star_wars",
+      "query_type": "cypher",
+      "neo4j_database": "pbstarwars",
+      "cypher_import": "data\\paired_benchmark\\cypher_to_sql\\star_wars\\star_wars_graph.cypher",
+      "graph_records": "data\\paired_benchmark\\cypher_to_sql\\star_wars\\graph_records.jsonl",
+      "schema_records": [
+        {
+          "resource_id": "star_wars_graph",
+          "type": "node",
+          "label": "Character",
+          "properties": [
+            "name",
+            "source_id"
+          ],
+          "text": "star_wars_graph.Character: name(property), source_id(property) sample: name=Luke Skywalker, source_id=6"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "node",
+          "label": "Film",
+          "properties": [
+            "source_id",
+            "title"
+          ],
+          "text": "star_wars_graph.Film: source_id(property), title(property) sample: source_id=0, title=A New Hope"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "node",
+          "label": "Planet",
+          "properties": [
+            "name",
+            "source_id"
+          ],
+          "text": "star_wars_graph.Planet: name(property), source_id(property) sample: name=Tatooine, source_id=88"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "node",
+          "label": "Species",
+          "properties": [
+            "name",
+            "source_id"
+          ],
+          "text": "star_wars_graph.Species: name(property), source_id(property) sample: name=Human, source_id=148"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "node",
+          "label": "Starship",
+          "properties": [
+            "name",
+            "source_id"
+          ],
+          "text": "star_wars_graph.Starship: name(property), source_id(property) sample: name=CR90 corvette, source_id=224"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "node",
+          "label": "Vehicle",
+          "properties": [
+            "name",
+            "source_id"
+          ],
+          "text": "star_wars_graph.Vehicle: name(property), source_id(property) sample: name=Sand Crawler, source_id=185"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "APPEARED_IN",
+          "start": "Character",
+          "end": "Film",
+          "text": "star_wars_graph [APPEARED_IN]: (:Character)-[:APPEARED_IN]->(:Film)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "HOMEWORLD",
+          "start": "Character",
+          "end": "Planet",
+          "text": "star_wars_graph [HOMEWORLD]: (:Character)-[:HOMEWORLD]->(:Planet)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "OF",
+          "start": "Character",
+          "end": "Species",
+          "text": "star_wars_graph [OF]: (:Character)-[:OF]->(:Species)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "PILOT",
+          "start": "Character",
+          "end": "Starship",
+          "text": "star_wars_graph [PILOT]: (:Character)-[:PILOT]->(:Starship)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "PILOT",
+          "start": "Character",
+          "end": "Vehicle",
+          "text": "star_wars_graph [PILOT]: (:Character)-[:PILOT]->(:Vehicle)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "APPEARED_IN",
+          "start": "Planet",
+          "end": "Film",
+          "text": "star_wars_graph [APPEARED_IN]: (:Planet)-[:APPEARED_IN]->(:Film)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "APPEARED_IN",
+          "start": "Species",
+          "end": "Film",
+          "text": "star_wars_graph [APPEARED_IN]: (:Species)-[:APPEARED_IN]->(:Film)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "HOMEWORLD",
+          "start": "Species",
+          "end": "Planet",
+          "text": "star_wars_graph [HOMEWORLD]: (:Species)-[:HOMEWORLD]->(:Planet)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "APPEARED_IN",
+          "start": "Starship",
+          "end": "Film",
+          "text": "star_wars_graph [APPEARED_IN]: (:Starship)-[:APPEARED_IN]->(:Film)"
+        },
+        {
+          "resource_id": "star_wars_graph",
+          "type": "rel",
+          "label": "APPEARED_IN",
+          "start": "Vehicle",
+          "end": "Film",
+          "text": "star_wars_graph [APPEARED_IN]: (:Vehicle)-[:APPEARED_IN]->(:Film)"
+        }
+      ],
+      "node_labels": [
+        {
+          "label": "Character",
+          "properties": [
+            "name",
+            "source_id"
+          ]
+        },
+        {
+          "label": "Film",
+          "properties": [
+            "source_id",
+            "title"
+          ]
+        },
+        {
+          "label": "Planet",
+          "properties": [
+            "name",
+            "source_id"
+          ]
+        },
+        {
+          "label": "Species",
+          "properties": [
+            "name",
+            "source_id"
+          ]
+        },
+        {
+          "label": "Starship",
+          "properties": [
+            "name",
+            "source_id"
+          ]
+        },
+        {
+          "label": "Vehicle",
+          "properties": [
+            "name",
+            "source_id"
+          ]
+        }
+      ],
+      "relationship_types": [
+        {
+          "type": "APPEARED_IN",
+          "from": "Character",
+          "to": "Film"
+        },
+        {
+          "type": "HOMEWORLD",
+          "from": "Character",
+          "to": "Planet"
+        },
+        {
+          "type": "OF",
+          "from": "Character",
+          "to": "Species"
+        },
+        {
+          "type": "PILOT",
+          "from": "Character",
+          "to": "Starship"
+        },
+        {
+          "type": "PILOT",
+          "from": "Character",
+          "to": "Vehicle"
+        },
+        {
+          "type": "APPEARED_IN",
+          "from": "Planet",
+          "to": "Film"
+        },
+        {
+          "type": "APPEARED_IN",
+          "from": "Species",
+          "to": "Film"
+        },
+        {
+          "type": "HOMEWORLD",
+          "from": "Species",
+          "to": "Planet"
+        },
+        {
+          "type": "APPEARED_IN",
+          "from": "Starship",
+          "to": "Film"
+        },
+        {
+          "type": "APPEARED_IN",
+          "from": "Vehicle",
+          "to": "Film"
+        }
+      ]
+    }
+  }
+}

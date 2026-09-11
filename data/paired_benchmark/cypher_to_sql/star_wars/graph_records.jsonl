@@ -1,0 +1,871 @@
+{"end": null, "id": "star_wars:planet:88", "kind": "node", "label": "Planet", "properties": {"name": "Tatooine", "source_id": "88"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:89", "kind": "node", "label": "Planet", "properties": {"name": "Alderaan", "source_id": "89"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:90", "kind": "node", "label": "Planet", "properties": {"name": "Yavin IV", "source_id": "90"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:91", "kind": "node", "label": "Planet", "properties": {"name": "Hoth", "source_id": "91"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:92", "kind": "node", "label": "Planet", "properties": {"name": "Dagobah", "source_id": "92"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:93", "kind": "node", "label": "Planet", "properties": {"name": "Bespin", "source_id": "93"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:94", "kind": "node", "label": "Planet", "properties": {"name": "Endor", "source_id": "94"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:95", "kind": "node", "label": "Planet", "properties": {"name": "Naboo", "source_id": "95"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:96", "kind": "node", "label": "Planet", "properties": {"name": "Coruscant", "source_id": "96"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:97", "kind": "node", "label": "Planet", "properties": {"name": "Kamino", "source_id": "97"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:98", "kind": "node", "label": "Planet", "properties": {"name": "Geonosis", "source_id": "98"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:99", "kind": "node", "label": "Planet", "properties": {"name": "Utapau", "source_id": "99"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:100", "kind": "node", "label": "Planet", "properties": {"name": "Mustafar", "source_id": "100"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:101", "kind": "node", "label": "Planet", "properties": {"name": "Kashyyyk", "source_id": "101"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:102", "kind": "node", "label": "Planet", "properties": {"name": "Polis Massa", "source_id": "102"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:103", "kind": "node", "label": "Planet", "properties": {"name": "Mygeeto", "source_id": "103"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:104", "kind": "node", "label": "Planet", "properties": {"name": "Felucia", "source_id": "104"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:105", "kind": "node", "label": "Planet", "properties": {"name": "Cato Neimoidia", "source_id": "105"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:106", "kind": "node", "label": "Planet", "properties": {"name": "Saleucami", "source_id": "106"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:107", "kind": "node", "label": "Planet", "properties": {"name": "Stewjon", "source_id": "107"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:108", "kind": "node", "label": "Planet", "properties": {"name": "Eriadu", "source_id": "108"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:109", "kind": "node", "label": "Planet", "properties": {"name": "Corellia", "source_id": "109"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:110", "kind": "node", "label": "Planet", "properties": {"name": "Rodia", "source_id": "110"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:111", "kind": "node", "label": "Planet", "properties": {"name": "Nal Hutta", "source_id": "111"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:112", "kind": "node", "label": "Planet", "properties": {"name": "Dantooine", "source_id": "112"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:113", "kind": "node", "label": "Planet", "properties": {"name": "Bestine IV", "source_id": "113"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:114", "kind": "node", "label": "Planet", "properties": {"name": "Ord Mantell", "source_id": "114"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:115", "kind": "node", "label": "Planet", "properties": {"name": "unknown", "source_id": "115"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:116", "kind": "node", "label": "Planet", "properties": {"name": "Trandosha", "source_id": "116"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:117", "kind": "node", "label": "Planet", "properties": {"name": "Socorro", "source_id": "117"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:118", "kind": "node", "label": "Planet", "properties": {"name": "Mon Cala", "source_id": "118"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:119", "kind": "node", "label": "Planet", "properties": {"name": "Chandrila", "source_id": "119"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:120", "kind": "node", "label": "Planet", "properties": {"name": "Sullust", "source_id": "120"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:121", "kind": "node", "label": "Planet", "properties": {"name": "Toydaria", "source_id": "121"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:122", "kind": "node", "label": "Planet", "properties": {"name": "Malastare", "source_id": "122"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:123", "kind": "node", "label": "Planet", "properties": {"name": "Dathomir", "source_id": "123"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:124", "kind": "node", "label": "Planet", "properties": {"name": "Ryloth", "source_id": "124"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:125", "kind": "node", "label": "Planet", "properties": {"name": "Aleen Minor", "source_id": "125"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:126", "kind": "node", "label": "Planet", "properties": {"name": "Vulpter", "source_id": "126"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:127", "kind": "node", "label": "Planet", "properties": {"name": "Troiken", "source_id": "127"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:128", "kind": "node", "label": "Planet", "properties": {"name": "Tund", "source_id": "128"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:129", "kind": "node", "label": "Planet", "properties": {"name": "Haruun Kal", "source_id": "129"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:130", "kind": "node", "label": "Planet", "properties": {"name": "Cerea", "source_id": "130"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:131", "kind": "node", "label": "Planet", "properties": {"name": "Glee Anselm", "source_id": "131"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:132", "kind": "node", "label": "Planet", "properties": {"name": "Iridonia", "source_id": "132"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:133", "kind": "node", "label": "Planet", "properties": {"name": "Tholoth", "source_id": "133"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:134", "kind": "node", "label": "Planet", "properties": {"name": "Iktotch", "source_id": "134"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:135", "kind": "node", "label": "Planet", "properties": {"name": "Quermia", "source_id": "135"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:136", "kind": "node", "label": "Planet", "properties": {"name": "Dorin", "source_id": "136"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:137", "kind": "node", "label": "Planet", "properties": {"name": "Champala", "source_id": "137"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:138", "kind": "node", "label": "Planet", "properties": {"name": "Mirial", "source_id": "138"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:139", "kind": "node", "label": "Planet", "properties": {"name": "Serenno", "source_id": "139"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:140", "kind": "node", "label": "Planet", "properties": {"name": "Concord Dawn", "source_id": "140"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:141", "kind": "node", "label": "Planet", "properties": {"name": "Zolan", "source_id": "141"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:142", "kind": "node", "label": "Planet", "properties": {"name": "Ojom", "source_id": "142"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:143", "kind": "node", "label": "Planet", "properties": {"name": "Skako", "source_id": "143"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:144", "kind": "node", "label": "Planet", "properties": {"name": "Muunilinst", "source_id": "144"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:145", "kind": "node", "label": "Planet", "properties": {"name": "Shili", "source_id": "145"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:146", "kind": "node", "label": "Planet", "properties": {"name": "Kalee", "source_id": "146"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:planet:147", "kind": "node", "label": "Planet", "properties": {"name": "Umbara", "source_id": "147"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:148", "kind": "node", "label": "Species", "properties": {"name": "Human", "source_id": "148"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:149", "kind": "node", "label": "Species", "properties": {"name": "Droid", "source_id": "149"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:150", "kind": "node", "label": "Species", "properties": {"name": "Wookie", "source_id": "150"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:151", "kind": "node", "label": "Species", "properties": {"name": "Rodian", "source_id": "151"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:152", "kind": "node", "label": "Species", "properties": {"name": "Hutt", "source_id": "152"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:153", "kind": "node", "label": "Species", "properties": {"name": "Yoda's species", "source_id": "153"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:154", "kind": "node", "label": "Species", "properties": {"name": "Trandoshan", "source_id": "154"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:155", "kind": "node", "label": "Species", "properties": {"name": "Mon Calamari", "source_id": "155"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:156", "kind": "node", "label": "Species", "properties": {"name": "Ewok", "source_id": "156"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:157", "kind": "node", "label": "Species", "properties": {"name": "Sullustan", "source_id": "157"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:158", "kind": "node", "label": "Species", "properties": {"name": "Neimodian", "source_id": "158"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:159", "kind": "node", "label": "Species", "properties": {"name": "Gungan", "source_id": "159"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:160", "kind": "node", "label": "Species", "properties": {"name": "Toydarian", "source_id": "160"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:161", "kind": "node", "label": "Species", "properties": {"name": "Dug", "source_id": "161"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:162", "kind": "node", "label": "Species", "properties": {"name": "Twi'lek", "source_id": "162"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:163", "kind": "node", "label": "Species", "properties": {"name": "Aleena", "source_id": "163"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:164", "kind": "node", "label": "Species", "properties": {"name": "Vulptereen", "source_id": "164"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:165", "kind": "node", "label": "Species", "properties": {"name": "Xexto", "source_id": "165"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:166", "kind": "node", "label": "Species", "properties": {"name": "Toong", "source_id": "166"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:167", "kind": "node", "label": "Species", "properties": {"name": "Cerean", "source_id": "167"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:168", "kind": "node", "label": "Species", "properties": {"name": "Nautolan", "source_id": "168"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:169", "kind": "node", "label": "Species", "properties": {"name": "Zabrak", "source_id": "169"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:170", "kind": "node", "label": "Species", "properties": {"name": "Tholothian", "source_id": "170"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:171", "kind": "node", "label": "Species", "properties": {"name": "Iktotchi", "source_id": "171"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:172", "kind": "node", "label": "Species", "properties": {"name": "Quermian", "source_id": "172"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:173", "kind": "node", "label": "Species", "properties": {"name": "Kel Dor", "source_id": "173"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:174", "kind": "node", "label": "Species", "properties": {"name": "Chagrian", "source_id": "174"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:175", "kind": "node", "label": "Species", "properties": {"name": "Geonosian", "source_id": "175"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:176", "kind": "node", "label": "Species", "properties": {"name": "Mirialan", "source_id": "176"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:177", "kind": "node", "label": "Species", "properties": {"name": "Clawdite", "source_id": "177"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:178", "kind": "node", "label": "Species", "properties": {"name": "Besalisk", "source_id": "178"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:179", "kind": "node", "label": "Species", "properties": {"name": "Kaminoan", "source_id": "179"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:180", "kind": "node", "label": "Species", "properties": {"name": "Skakoan", "source_id": "180"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:181", "kind": "node", "label": "Species", "properties": {"name": "Muun", "source_id": "181"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:182", "kind": "node", "label": "Species", "properties": {"name": "Togruta", "source_id": "182"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:183", "kind": "node", "label": "Species", "properties": {"name": "Kaleesh", "source_id": "183"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:species:184", "kind": "node", "label": "Species", "properties": {"name": "Pau'an", "source_id": "184"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:6", "kind": "node", "label": "Character", "properties": {"name": "Luke Skywalker", "source_id": "6"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:7", "kind": "node", "label": "Character", "properties": {"name": "C-3PO", "source_id": "7"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:8", "kind": "node", "label": "Character", "properties": {"name": "R2-D2", "source_id": "8"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:9", "kind": "node", "label": "Character", "properties": {"name": "Darth Vader", "source_id": "9"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:10", "kind": "node", "label": "Character", "properties": {"name": "Leia Organa", "source_id": "10"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:11", "kind": "node", "label": "Character", "properties": {"name": "Owen Lars", "source_id": "11"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:12", "kind": "node", "label": "Character", "properties": {"name": "Beru Whitesun lars", "source_id": "12"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:13", "kind": "node", "label": "Character", "properties": {"name": "R5-D4", "source_id": "13"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:14", "kind": "node", "label": "Character", "properties": {"name": "Biggs Darklighter", "source_id": "14"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:15", "kind": "node", "label": "Character", "properties": {"name": "Obi-Wan Kenobi", "source_id": "15"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:16", "kind": "node", "label": "Character", "properties": {"name": "Anakin Skywalker", "source_id": "16"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:17", "kind": "node", "label": "Character", "properties": {"name": "Wilhuff Tarkin", "source_id": "17"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:18", "kind": "node", "label": "Character", "properties": {"name": "Chewbacca", "source_id": "18"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:19", "kind": "node", "label": "Character", "properties": {"name": "Han Solo", "source_id": "19"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:20", "kind": "node", "label": "Character", "properties": {"name": "Greedo", "source_id": "20"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:21", "kind": "node", "label": "Character", "properties": {"name": "Jabba Desilijic Tiure", "source_id": "21"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:22", "kind": "node", "label": "Character", "properties": {"name": "Wedge Antilles", "source_id": "22"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:23", "kind": "node", "label": "Character", "properties": {"name": "Jek Tono Porkins", "source_id": "23"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:24", "kind": "node", "label": "Character", "properties": {"name": "Yoda", "source_id": "24"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:25", "kind": "node", "label": "Character", "properties": {"name": "Palpatine", "source_id": "25"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:26", "kind": "node", "label": "Character", "properties": {"name": "Boba Fett", "source_id": "26"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:27", "kind": "node", "label": "Character", "properties": {"name": "IG-88", "source_id": "27"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:28", "kind": "node", "label": "Character", "properties": {"name": "Bossk", "source_id": "28"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:29", "kind": "node", "label": "Character", "properties": {"name": "Lando Calrissian", "source_id": "29"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:30", "kind": "node", "label": "Character", "properties": {"name": "Lobot", "source_id": "30"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:31", "kind": "node", "label": "Character", "properties": {"name": "Ackbar", "source_id": "31"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:32", "kind": "node", "label": "Character", "properties": {"name": "Mon Mothma", "source_id": "32"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:33", "kind": "node", "label": "Character", "properties": {"name": "Arvel Crynyd", "source_id": "33"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:34", "kind": "node", "label": "Character", "properties": {"name": "Wicket Systri Warrick", "source_id": "34"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:35", "kind": "node", "label": "Character", "properties": {"name": "Nien Nunb", "source_id": "35"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:36", "kind": "node", "label": "Character", "properties": {"name": "Qui-Gon Jinn", "source_id": "36"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:37", "kind": "node", "label": "Character", "properties": {"name": "Nute Gunray", "source_id": "37"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:38", "kind": "node", "label": "Character", "properties": {"name": "Finis Valorum", "source_id": "38"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:39", "kind": "node", "label": "Character", "properties": {"name": "Padmé Amidala", "source_id": "39"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:40", "kind": "node", "label": "Character", "properties": {"name": "Jar Jar Binks", "source_id": "40"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:41", "kind": "node", "label": "Character", "properties": {"name": "Roos Tarpals", "source_id": "41"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:42", "kind": "node", "label": "Character", "properties": {"name": "Rugor Nass", "source_id": "42"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:43", "kind": "node", "label": "Character", "properties": {"name": "Ric Olié", "source_id": "43"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:44", "kind": "node", "label": "Character", "properties": {"name": "Watto", "source_id": "44"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:45", "kind": "node", "label": "Character", "properties": {"name": "Sebulba", "source_id": "45"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:46", "kind": "node", "label": "Character", "properties": {"name": "Quarsh Panaka", "source_id": "46"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:47", "kind": "node", "label": "Character", "properties": {"name": "Shmi Skywalker", "source_id": "47"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:48", "kind": "node", "label": "Character", "properties": {"name": "Darth Maul", "source_id": "48"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:49", "kind": "node", "label": "Character", "properties": {"name": "Bib Fortuna", "source_id": "49"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:50", "kind": "node", "label": "Character", "properties": {"name": "Ayla Secura", "source_id": "50"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:51", "kind": "node", "label": "Character", "properties": {"name": "Ratts Tyerel", "source_id": "51"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:52", "kind": "node", "label": "Character", "properties": {"name": "Dud Bolt", "source_id": "52"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:53", "kind": "node", "label": "Character", "properties": {"name": "Gasgano", "source_id": "53"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:54", "kind": "node", "label": "Character", "properties": {"name": "Ben Quadinaros", "source_id": "54"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:55", "kind": "node", "label": "Character", "properties": {"name": "Mace Windu", "source_id": "55"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:56", "kind": "node", "label": "Character", "properties": {"name": "Ki-Adi-Mundi", "source_id": "56"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:57", "kind": "node", "label": "Character", "properties": {"name": "Kit Fisto", "source_id": "57"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:58", "kind": "node", "label": "Character", "properties": {"name": "Eeth Koth", "source_id": "58"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:59", "kind": "node", "label": "Character", "properties": {"name": "Adi Gallia", "source_id": "59"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:60", "kind": "node", "label": "Character", "properties": {"name": "Saesee Tiin", "source_id": "60"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:61", "kind": "node", "label": "Character", "properties": {"name": "Yarael Poof", "source_id": "61"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:62", "kind": "node", "label": "Character", "properties": {"name": "Plo Koon", "source_id": "62"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:63", "kind": "node", "label": "Character", "properties": {"name": "Mas Amedda", "source_id": "63"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:64", "kind": "node", "label": "Character", "properties": {"name": "Gregar Typho", "source_id": "64"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:65", "kind": "node", "label": "Character", "properties": {"name": "Cordé", "source_id": "65"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:66", "kind": "node", "label": "Character", "properties": {"name": "Cliegg Lars", "source_id": "66"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:67", "kind": "node", "label": "Character", "properties": {"name": "Poggle the Lesser", "source_id": "67"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:68", "kind": "node", "label": "Character", "properties": {"name": "Luminara Unduli", "source_id": "68"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:69", "kind": "node", "label": "Character", "properties": {"name": "Barriss Offee", "source_id": "69"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:70", "kind": "node", "label": "Character", "properties": {"name": "Dormé", "source_id": "70"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:71", "kind": "node", "label": "Character", "properties": {"name": "Dooku", "source_id": "71"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:72", "kind": "node", "label": "Character", "properties": {"name": "Bail Prestor Organa", "source_id": "72"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:73", "kind": "node", "label": "Character", "properties": {"name": "Jango Fett", "source_id": "73"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:74", "kind": "node", "label": "Character", "properties": {"name": "Zam Wesell", "source_id": "74"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:75", "kind": "node", "label": "Character", "properties": {"name": "Dexter Jettster", "source_id": "75"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:76", "kind": "node", "label": "Character", "properties": {"name": "Lama Su", "source_id": "76"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:77", "kind": "node", "label": "Character", "properties": {"name": "Taun We", "source_id": "77"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:78", "kind": "node", "label": "Character", "properties": {"name": "Jocasta Nu", "source_id": "78"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:79", "kind": "node", "label": "Character", "properties": {"name": "R4-P17", "source_id": "79"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:80", "kind": "node", "label": "Character", "properties": {"name": "Wat Tambor", "source_id": "80"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:81", "kind": "node", "label": "Character", "properties": {"name": "San Hill", "source_id": "81"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:82", "kind": "node", "label": "Character", "properties": {"name": "Shaak Ti", "source_id": "82"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:83", "kind": "node", "label": "Character", "properties": {"name": "Grievous", "source_id": "83"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:84", "kind": "node", "label": "Character", "properties": {"name": "Tarfful", "source_id": "84"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:85", "kind": "node", "label": "Character", "properties": {"name": "Raymus Antilles", "source_id": "85"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:86", "kind": "node", "label": "Character", "properties": {"name": "Sly Moore", "source_id": "86"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:character:87", "kind": "node", "label": "Character", "properties": {"name": "Tion Medon", "source_id": "87"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:224", "kind": "node", "label": "Starship", "properties": {"name": "CR90 corvette", "source_id": "224"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:225", "kind": "node", "label": "Starship", "properties": {"name": "Star Destroyer", "source_id": "225"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:226", "kind": "node", "label": "Starship", "properties": {"name": "Sentinel-class landing craft", "source_id": "226"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:227", "kind": "node", "label": "Starship", "properties": {"name": "Death Star", "source_id": "227"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:228", "kind": "node", "label": "Starship", "properties": {"name": "Millennium Falcon", "source_id": "228"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:229", "kind": "node", "label": "Starship", "properties": {"name": "Y-wing", "source_id": "229"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:230", "kind": "node", "label": "Starship", "properties": {"name": "X-wing", "source_id": "230"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:231", "kind": "node", "label": "Starship", "properties": {"name": "TIE Advanced x1", "source_id": "231"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:232", "kind": "node", "label": "Starship", "properties": {"name": "Executor", "source_id": "232"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:233", "kind": "node", "label": "Starship", "properties": {"name": "Rebel transport", "source_id": "233"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:234", "kind": "node", "label": "Starship", "properties": {"name": "Slave 1", "source_id": "234"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:235", "kind": "node", "label": "Starship", "properties": {"name": "Imperial shuttle", "source_id": "235"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:236", "kind": "node", "label": "Starship", "properties": {"name": "EF76 Nebulon-B escort frigate", "source_id": "236"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:237", "kind": "node", "label": "Starship", "properties": {"name": "Calamari Cruiser", "source_id": "237"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:238", "kind": "node", "label": "Starship", "properties": {"name": "A-wing", "source_id": "238"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:239", "kind": "node", "label": "Starship", "properties": {"name": "B-wing", "source_id": "239"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:240", "kind": "node", "label": "Starship", "properties": {"name": "Republic Cruiser", "source_id": "240"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:241", "kind": "node", "label": "Starship", "properties": {"name": "Droid control ship", "source_id": "241"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:242", "kind": "node", "label": "Starship", "properties": {"name": "Naboo fighter", "source_id": "242"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:243", "kind": "node", "label": "Starship", "properties": {"name": "Naboo Royal Starship", "source_id": "243"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:244", "kind": "node", "label": "Starship", "properties": {"name": "Scimitar", "source_id": "244"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:245", "kind": "node", "label": "Starship", "properties": {"name": "J-type diplomatic barge", "source_id": "245"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:246", "kind": "node", "label": "Starship", "properties": {"name": "AA-9 Coruscant freighter", "source_id": "246"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:247", "kind": "node", "label": "Starship", "properties": {"name": "Jedi starfighter", "source_id": "247"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:248", "kind": "node", "label": "Starship", "properties": {"name": "H-type Nubian yacht", "source_id": "248"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:249", "kind": "node", "label": "Starship", "properties": {"name": "Republic Assault ship", "source_id": "249"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:250", "kind": "node", "label": "Starship", "properties": {"name": "Solar Sailer", "source_id": "250"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:251", "kind": "node", "label": "Starship", "properties": {"name": "Trade Federation cruiser", "source_id": "251"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:252", "kind": "node", "label": "Starship", "properties": {"name": "Theta-class T-2c shuttle", "source_id": "252"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:253", "kind": "node", "label": "Starship", "properties": {"name": "Republic attack cruiser", "source_id": "253"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:254", "kind": "node", "label": "Starship", "properties": {"name": "Naboo star skiff", "source_id": "254"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:255", "kind": "node", "label": "Starship", "properties": {"name": "Jedi Interceptor", "source_id": "255"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:256", "kind": "node", "label": "Starship", "properties": {"name": "arc-170", "source_id": "256"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:257", "kind": "node", "label": "Starship", "properties": {"name": "Banking clan frigte", "source_id": "257"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:258", "kind": "node", "label": "Starship", "properties": {"name": "Belbullab-22 starfighter", "source_id": "258"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:starship:259", "kind": "node", "label": "Starship", "properties": {"name": "V-wing", "source_id": "259"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:film:0", "kind": "node", "label": "Film", "properties": {"source_id": "0", "title": "A New Hope"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:film:1", "kind": "node", "label": "Film", "properties": {"source_id": "1", "title": "The Empire Strikes Back"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:film:2", "kind": "node", "label": "Film", "properties": {"source_id": "2", "title": "Return of the Jedi"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:film:3", "kind": "node", "label": "Film", "properties": {"source_id": "3", "title": "The Phantom Menace"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:film:4", "kind": "node", "label": "Film", "properties": {"source_id": "4", "title": "Attack of the Clones"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:film:5", "kind": "node", "label": "Film", "properties": {"source_id": "5", "title": "Revenge of the Sith"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:185", "kind": "node", "label": "Vehicle", "properties": {"name": "Sand Crawler", "source_id": "185"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:186", "kind": "node", "label": "Vehicle", "properties": {"name": "T-16 skyhopper", "source_id": "186"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:187", "kind": "node", "label": "Vehicle", "properties": {"name": "X-34 landspeeder", "source_id": "187"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:188", "kind": "node", "label": "Vehicle", "properties": {"name": "TIE/LN starfighter", "source_id": "188"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:189", "kind": "node", "label": "Vehicle", "properties": {"name": "Snowspeeder", "source_id": "189"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:190", "kind": "node", "label": "Vehicle", "properties": {"name": "TIE bomber", "source_id": "190"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:191", "kind": "node", "label": "Vehicle", "properties": {"name": "AT-AT", "source_id": "191"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:192", "kind": "node", "label": "Vehicle", "properties": {"name": "AT-ST", "source_id": "192"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:193", "kind": "node", "label": "Vehicle", "properties": {"name": "Storm IV Twin-Pod cloud car", "source_id": "193"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:194", "kind": "node", "label": "Vehicle", "properties": {"name": "Sail barge", "source_id": "194"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:195", "kind": "node", "label": "Vehicle", "properties": {"name": "Bantha-II cargo skiff", "source_id": "195"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:196", "kind": "node", "label": "Vehicle", "properties": {"name": "TIE/IN interceptor", "source_id": "196"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:197", "kind": "node", "label": "Vehicle", "properties": {"name": "Imperial Speeder Bike", "source_id": "197"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:198", "kind": "node", "label": "Vehicle", "properties": {"name": "Vulture Droid", "source_id": "198"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:199", "kind": "node", "label": "Vehicle", "properties": {"name": "Multi-Troop Transport", "source_id": "199"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:200", "kind": "node", "label": "Vehicle", "properties": {"name": "Armored Assault Tank", "source_id": "200"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:201", "kind": "node", "label": "Vehicle", "properties": {"name": "Single Trooper Aerial Platform", "source_id": "201"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:202", "kind": "node", "label": "Vehicle", "properties": {"name": "C-9979 landing craft", "source_id": "202"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:203", "kind": "node", "label": "Vehicle", "properties": {"name": "Tribubble bongo", "source_id": "203"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:204", "kind": "node", "label": "Vehicle", "properties": {"name": "Sith speeder", "source_id": "204"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:205", "kind": "node", "label": "Vehicle", "properties": {"name": "Zephyr-G swoop bike", "source_id": "205"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:206", "kind": "node", "label": "Vehicle", "properties": {"name": "Koro-2 Exodrive airspeeder", "source_id": "206"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:207", "kind": "node", "label": "Vehicle", "properties": {"name": "XJ-6 airspeeder", "source_id": "207"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:208", "kind": "node", "label": "Vehicle", "properties": {"name": "LAAT/i", "source_id": "208"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:209", "kind": "node", "label": "Vehicle", "properties": {"name": "LAAT/c", "source_id": "209"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:210", "kind": "node", "label": "Vehicle", "properties": {"name": "AT-TE", "source_id": "210"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:211", "kind": "node", "label": "Vehicle", "properties": {"name": "SPHA", "source_id": "211"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:212", "kind": "node", "label": "Vehicle", "properties": {"name": "Flitknot speeder", "source_id": "212"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:213", "kind": "node", "label": "Vehicle", "properties": {"name": "Neimoidian shuttle", "source_id": "213"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:214", "kind": "node", "label": "Vehicle", "properties": {"name": "Geonosian starfighter", "source_id": "214"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:215", "kind": "node", "label": "Vehicle", "properties": {"name": "Tsmeu-6 personal wheel bike", "source_id": "215"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:216", "kind": "node", "label": "Vehicle", "properties": {"name": "Emergency Firespeeder", "source_id": "216"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:217", "kind": "node", "label": "Vehicle", "properties": {"name": "Droid tri-fighter", "source_id": "217"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:218", "kind": "node", "label": "Vehicle", "properties": {"name": "Oevvaor jet catamaran", "source_id": "218"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:219", "kind": "node", "label": "Vehicle", "properties": {"name": "Raddaugh Gnasp fluttercraft", "source_id": "219"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:220", "kind": "node", "label": "Vehicle", "properties": {"name": "Clone turbo tank", "source_id": "220"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:221", "kind": "node", "label": "Vehicle", "properties": {"name": "Corporate Alliance tank droid", "source_id": "221"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:222", "kind": "node", "label": "Vehicle", "properties": {"name": "Droid gunship", "source_id": "222"}, "start": null, "type": null}
+{"end": null, "id": "star_wars:vehicle:223", "kind": "node", "label": "Vehicle", "properties": {"name": "AT-RT", "source_id": "223"}, "start": null, "type": null}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:9", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:89", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:10", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:11", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:12", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:13", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:14", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:107", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:108", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:17", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:101", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:109", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:19", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:110", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:20", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:111", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:21", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:109", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:22", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:113", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:23", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:115", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:24", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:25", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:97", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:26", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:115", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:27", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:116", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:28", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:117", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:29", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:93", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:30", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:118", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:31", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:119", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:32", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:115", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:33", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:94", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:34", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:120", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:35", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:115", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:36", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:105", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:37", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:96", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:38", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:40", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:41", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:42", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:43", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:121", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:44", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:122", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:45", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:46", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:47", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:123", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:48", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:124", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:49", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:124", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:50", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:125", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:51", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:126", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:52", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:127", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:53", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:128", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:54", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:129", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:55", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:130", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:56", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:131", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:57", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:132", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:58", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:96", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:59", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:134", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:60", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:135", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:61", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:136", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:62", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:137", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:63", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:64", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:65", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:88", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:66", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:98", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:67", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:138", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:68", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:138", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:69", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:70", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:139", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:71", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:89", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:72", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:140", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:73", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:141", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:74", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:142", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:75", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:97", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:76", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:97", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:77", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:96", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:78", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:115", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:79", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:143", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:80", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:144", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:81", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:145", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:82", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:146", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:83", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:101", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:84", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:89", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:85", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:147", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:86", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:99", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:87", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:96", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:148", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:101", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:150", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:110", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:151", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:111", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:152", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:115", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:153", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:116", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:154", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:118", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:155", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:94", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:156", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:120", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:157", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:105", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:158", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:95", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:159", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:121", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:160", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:122", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:161", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:124", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:162", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:125", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:163", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:126", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:164", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:127", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:165", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:128", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:166", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:130", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:167", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:131", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:168", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:132", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:169", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:133", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:170", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:134", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:171", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:135", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:172", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:136", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:173", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:137", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:174", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:98", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:175", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:138", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:176", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:141", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:177", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:142", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:178", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:97", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:179", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:143", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:180", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:144", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:181", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:145", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:182", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:146", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:183", "type": "HOMEWORLD"}
+{"end": "star_wars:planet:99", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:184", "type": "HOMEWORLD"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:9", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:10", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:11", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:12", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:13", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:14", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:17", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:19", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:20", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:21", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:22", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:23", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:85", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:9", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:10", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:19", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:22", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:24", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:25", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:26", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:27", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:28", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:29", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:30", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:9", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:10", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:19", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:21", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:22", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:24", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:25", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:26", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:29", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:31", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:32", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:33", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:34", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:35", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:49", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:21", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:24", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:25", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:36", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:37", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:38", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:40", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:41", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:42", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:43", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:44", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:45", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:46", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:47", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:48", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:50", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:51", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:52", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:53", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:54", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:55", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:56", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:57", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:58", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:59", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:60", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:61", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:62", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:63", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:11", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:12", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:24", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:25", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:26", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:37", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:40", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:44", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:47", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:50", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:55", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:56", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:57", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:62", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:63", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:64", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:65", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:66", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:67", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:68", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:69", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:70", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:71", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:72", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:73", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:74", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:75", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:76", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:77", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:78", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:79", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:80", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:81", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:82", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:86", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:9", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:10", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:11", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:12", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:17", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:24", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:25", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:37", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:50", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:55", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:56", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:57", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:58", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:59", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:60", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:62", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:67", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:68", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:71", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:72", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:79", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:82", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:83", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:84", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:85", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:86", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:87", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:88", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:89", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:90", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:91", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:92", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:93", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:114", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:88", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:92", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:94", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:95", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:96", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:88", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:95", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:96", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:88", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:95", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:96", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:97", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:98", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:88", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:89", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:92", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:95", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:96", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:99", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:100", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:101", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:102", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:103", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:104", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:105", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:planet:106", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:148", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:149", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:150", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:151", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:152", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:148", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:149", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:150", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:153", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:154", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:148", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:149", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:150", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:152", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:153", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:155", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:156", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:157", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:162", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:148", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:149", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:153", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:158", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:159", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:160", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:161", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:162", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:163", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:164", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:165", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:166", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:167", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:168", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:169", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:170", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:171", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:172", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:173", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:174", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:148", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:149", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:153", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:159", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:160", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:162", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:175", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:176", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:177", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:178", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:179", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:180", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:181", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:182", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:148", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:149", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:150", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:153", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:162", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:166", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:167", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:170", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:171", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:172", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:173", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:174", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:175", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:176", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:177", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:180", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:181", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:182", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:183", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:species:184", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:224", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:225", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:226", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:227", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:228", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:229", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:230", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:231", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:225", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:228", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:229", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:230", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:232", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:233", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:234", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:235", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:236", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:224", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:225", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:228", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:229", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:230", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:232", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:233", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:235", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:236", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:237", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:238", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:239", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:240", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:241", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:242", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:243", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:244", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:234", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:241", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:242", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:245", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:246", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:247", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:248", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:249", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:250", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:224", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:241", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:247", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:251", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:252", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:253", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:254", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:255", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:256", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:257", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:258", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:starship:259", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:185", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:186", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:187", "type": "APPEARED_IN"}
+{"end": "star_wars:film:0", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:188", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:188", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:189", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:190", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:191", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:192", "type": "APPEARED_IN"}
+{"end": "star_wars:film:1", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:193", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:188", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:190", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:191", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:192", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:194", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:195", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:196", "type": "APPEARED_IN"}
+{"end": "star_wars:film:2", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:197", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:198", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:199", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:200", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:201", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:202", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:203", "type": "APPEARED_IN"}
+{"end": "star_wars:film:3", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:204", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:185", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:205", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:206", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:207", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:208", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:209", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:210", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:211", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:212", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:213", "type": "APPEARED_IN"}
+{"end": "star_wars:film:4", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:214", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:198", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:208", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:210", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:213", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:215", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:216", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:217", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:218", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:219", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:220", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:221", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:222", "type": "APPEARED_IN"}
+{"end": "star_wars:film:5", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:vehicle:223", "type": "APPEARED_IN"}
+{"end": "star_wars:species:149", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:7", "type": "OF"}
+{"end": "star_wars:species:149", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:8", "type": "OF"}
+{"end": "star_wars:species:149", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:13", "type": "OF"}
+{"end": "star_wars:species:150", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "OF"}
+{"end": "star_wars:species:151", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:20", "type": "OF"}
+{"end": "star_wars:species:152", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:21", "type": "OF"}
+{"end": "star_wars:species:153", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:24", "type": "OF"}
+{"end": "star_wars:species:149", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:27", "type": "OF"}
+{"end": "star_wars:species:154", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:28", "type": "OF"}
+{"end": "star_wars:species:155", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:31", "type": "OF"}
+{"end": "star_wars:species:156", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:34", "type": "OF"}
+{"end": "star_wars:species:157", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:35", "type": "OF"}
+{"end": "star_wars:species:158", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:37", "type": "OF"}
+{"end": "star_wars:species:159", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:40", "type": "OF"}
+{"end": "star_wars:species:159", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:41", "type": "OF"}
+{"end": "star_wars:species:159", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:42", "type": "OF"}
+{"end": "star_wars:species:160", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:44", "type": "OF"}
+{"end": "star_wars:species:161", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:45", "type": "OF"}
+{"end": "star_wars:species:169", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:48", "type": "OF"}
+{"end": "star_wars:species:162", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:49", "type": "OF"}
+{"end": "star_wars:species:162", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:50", "type": "OF"}
+{"end": "star_wars:species:163", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:51", "type": "OF"}
+{"end": "star_wars:species:164", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:52", "type": "OF"}
+{"end": "star_wars:species:165", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:53", "type": "OF"}
+{"end": "star_wars:species:166", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:54", "type": "OF"}
+{"end": "star_wars:species:167", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:56", "type": "OF"}
+{"end": "star_wars:species:168", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:57", "type": "OF"}
+{"end": "star_wars:species:169", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:58", "type": "OF"}
+{"end": "star_wars:species:170", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:59", "type": "OF"}
+{"end": "star_wars:species:171", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:60", "type": "OF"}
+{"end": "star_wars:species:172", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:61", "type": "OF"}
+{"end": "star_wars:species:173", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:62", "type": "OF"}
+{"end": "star_wars:species:174", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:63", "type": "OF"}
+{"end": "star_wars:species:175", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:67", "type": "OF"}
+{"end": "star_wars:species:176", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:68", "type": "OF"}
+{"end": "star_wars:species:176", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:69", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:70", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:71", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:72", "type": "OF"}
+{"end": "star_wars:species:177", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:74", "type": "OF"}
+{"end": "star_wars:species:178", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:75", "type": "OF"}
+{"end": "star_wars:species:179", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:76", "type": "OF"}
+{"end": "star_wars:species:179", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:77", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:78", "type": "OF"}
+{"end": "star_wars:species:180", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:80", "type": "OF"}
+{"end": "star_wars:species:181", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:81", "type": "OF"}
+{"end": "star_wars:species:182", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:82", "type": "OF"}
+{"end": "star_wars:species:183", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:83", "type": "OF"}
+{"end": "star_wars:species:150", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:84", "type": "OF"}
+{"end": "star_wars:species:184", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:87", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:9", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:10", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:11", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:12", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:14", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:17", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:19", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:22", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:23", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:25", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:26", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:29", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:30", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:32", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:33", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:36", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:38", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:47", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:55", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:64", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:65", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:66", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:73", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:85", "type": "OF"}
+{"end": "star_wars:species:148", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "OF"}
+{"end": "star_wars:vehicle:189", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "PILOT"}
+{"end": "star_wars:vehicle:197", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "PILOT"}
+{"end": "star_wars:vehicle:197", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:10", "type": "PILOT"}
+{"end": "star_wars:vehicle:203", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "PILOT"}
+{"end": "star_wars:vehicle:205", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "PILOT"}
+{"end": "star_wars:vehicle:207", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "PILOT"}
+{"end": "star_wars:vehicle:192", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "PILOT"}
+{"end": "star_wars:vehicle:189", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:22", "type": "PILOT"}
+{"end": "star_wars:vehicle:203", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:36", "type": "PILOT"}
+{"end": "star_wars:vehicle:204", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:48", "type": "PILOT"}
+{"end": "star_wars:vehicle:212", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:71", "type": "PILOT"}
+{"end": "star_wars:vehicle:206", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:74", "type": "PILOT"}
+{"end": "star_wars:vehicle:215", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:83", "type": "PILOT"}
+{"end": "star_wars:starship:230", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "PILOT"}
+{"end": "star_wars:starship:235", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:6", "type": "PILOT"}
+{"end": "star_wars:starship:231", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:9", "type": "PILOT"}
+{"end": "star_wars:starship:230", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:14", "type": "PILOT"}
+{"end": "star_wars:starship:247", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "PILOT"}
+{"end": "star_wars:starship:251", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "PILOT"}
+{"end": "star_wars:starship:254", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "PILOT"}
+{"end": "star_wars:starship:255", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "PILOT"}
+{"end": "star_wars:starship:258", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:15", "type": "PILOT"}
+{"end": "star_wars:starship:242", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "PILOT"}
+{"end": "star_wars:starship:251", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "PILOT"}
+{"end": "star_wars:starship:255", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:16", "type": "PILOT"}
+{"end": "star_wars:starship:228", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "PILOT"}
+{"end": "star_wars:starship:235", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:18", "type": "PILOT"}
+{"end": "star_wars:starship:228", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:19", "type": "PILOT"}
+{"end": "star_wars:starship:235", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:19", "type": "PILOT"}
+{"end": "star_wars:starship:230", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:22", "type": "PILOT"}
+{"end": "star_wars:starship:230", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:23", "type": "PILOT"}
+{"end": "star_wars:starship:234", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:26", "type": "PILOT"}
+{"end": "star_wars:starship:228", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:29", "type": "PILOT"}
+{"end": "star_wars:starship:238", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:33", "type": "PILOT"}
+{"end": "star_wars:starship:228", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:35", "type": "PILOT"}
+{"end": "star_wars:starship:242", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "PILOT"}
+{"end": "star_wars:starship:248", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "PILOT"}
+{"end": "star_wars:starship:254", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:39", "type": "PILOT"}
+{"end": "star_wars:starship:243", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:43", "type": "PILOT"}
+{"end": "star_wars:starship:244", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:48", "type": "PILOT"}
+{"end": "star_wars:starship:247", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:62", "type": "PILOT"}
+{"end": "star_wars:starship:242", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:64", "type": "PILOT"}
+{"end": "star_wars:starship:258", "id": null, "kind": "relationship", "label": null, "properties": {}, "start": "star_wars:character:83", "type": "PILOT"}

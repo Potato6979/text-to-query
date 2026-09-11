@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!web/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime output
+logs/
+log/
+output/
+outputs/
+work/
+tmp/
+temp/
+*.log
+*.tmp
+*.partial
+
+# Generated retrieval and DAIL caches
+schema_index/sql_dail_embedding_cache/
+schema_index/sql_dail_example_pool_cache/
+
+# External datasets are downloaded separately.
+data/*
+!data/README.md
+!data/paired_benchmark/
+!data/paired_benchmark/**
+
+# Model and database artifacts
+*.dump
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+web/*.tsbuildinfo
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
