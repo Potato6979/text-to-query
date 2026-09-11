@@ -166,6 +166,22 @@ def check_license_files() -> int:
     return 0
 
 
+def check_documentation() -> int:
+    required = (
+        ROOT / "README.md",
+        ROOT / "docs" / "images" / "system-architecture.png",
+        ROOT / "docs" / "images" / "sql-agent-flow.png",
+        ROOT / "docs" / "images" / "cypher-agent-flow.png",
+        ROOT / "docs" / "images" / "multi-step-runtime.png",
+    )
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing:
+        report("FAIL", "Missing documentation files: " + ", ".join(missing))
+        return 1
+    report("OK", "README and architecture diagrams are present.")
+    return 0
+
+
 def main() -> int:
     failures = 0
     failures += check_python_sources()
@@ -173,6 +189,7 @@ def main() -> int:
     failures += check_indexes_and_data()
     failures += check_frontend()
     failures += check_license_files()
+    failures += check_documentation()
 
     if not os.getenv("DEEPSEEK_API_KEY", "").strip():
         report("WARN", "DEEPSEEK_API_KEY is not set; LLM-backed queries will not run.")

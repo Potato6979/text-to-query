@@ -20,23 +20,45 @@ Text-to-Query 是一个面向 SQLite 与 Neo4j 的自然语言查询系统。系
 - 通过 FastAPI 提供查询、健康检查和资源目录接口
 - 通过 React + Vite 页面展示答案、查询语句、执行步骤和运行状态
 
-## 系统流程
+## 系统架构与执行流程
 
-```text
-Natural-language question
-        |
-        v
-Task analysis and schema-aware routing
-        |
-        +--> SQL pipeline ------> SQLite
-        |
-        +--> Cypher pipeline ---> Neo4j
-        |
-        `--> Multi-step planner -> Bridge Resolver -> SQL/Cypher steps
-                                      |
-                                      v
-                         Verification and answer synthesis
-```
+![系统总体架构](docs/images/system-architecture.png)
+
+系统以 Coordinator 为核心，将一次自然语言查询组织为前置判断、查询执行、跨源运行和结果控制四个阶段：
+
+1. **Routing Agent** 结合问题意图、实体线索和 Schema 证据生成 SQL、Cypher 及跨源候选路由。
+2. **Task Mode Analyzer** 判断问题属于单步查询、嵌套逻辑、多步执行还是跨源执行。
+3. **Schema Plan Proposer** 从全局 Schema catalog 中选择候选资源和相关 Schema item，为生成链路提供结构化依据。
+4. **Coordinator** 根据路由和任务模式调度单源 Agent，或调用 Multi-step Planner 与 Multi-step Runtime。
+5. **Verification Agent** 检查执行状态、结果形态和任务契约；未通过时触发有限的局部修复、重新生成或重路由。
+6. **Final Answer Synthesizer（FAS）** 根据结构化结果、桥接状态和安全状态生成最终答案。
+
+### SQL Agent
+
+![SQL Agent 查询流程](docs/images/sql-agent-flow.png)
+
+SQL 链路首先确定目标 SQLite 数据库并读取完整的 `CREATE TABLE` Schema。系统根据当前问题构造 masked question，检索少量相似 question-SQL 示例，同时从真实数据库值中提取 value hints。问题、Schema、示例和取值提示共同组成生成上下文。生成的 SQL 在 SQLite 中执行；语法错误、字段错误、异常空结果或结果形态不匹配会进入有限修复回路。通过检查后，Agent 返回 SQL、结构化结果、执行状态和 trace。
+
+### Cypher Agent
+
+![Cypher Agent 查询流程](docs/images/cypher-agent-flow.png)
+
+Cypher 链路从目标 Neo4j 数据库抽取节点标签、节点属性、关系类型、关系方向和关系属性。Schema grounding 根据问题筛选相关图结构，并保留查询所需的路径闭包。系统使用接近 Cypher pattern 的表示组织 Schema 与约束，生成查询后校验关系方向、属性访问、聚合粒度和结果形态。执行或验证失败时进入有限修复回路；通过检查后返回 Cypher、结构化结果、执行状态和 trace。
+
+### 多步与跨源执行
+
+![多步跨源查询流程](docs/images/multi-step-runtime.png)
+
+Multi-step Planner 将复杂问题拆分为具有输入输出契约的顺序步骤，Multi-step Runtime 负责实际执行并维护中间变量：
+
+1. 执行首个查询步骤，从结果中提取标识字段、名称字段、度量字段和属性字段。
+2. 根据后续步骤的输入契约判断是否依赖前序结果；无依赖时直接进入下一步。
+3. 同源且类型兼容时，将中间变量作为下一步查询的强约束。
+4. SQL 与 Cypher 跨源传递时，调用 Bridge Resolver 检查实体映射的唯一性、覆盖率与语义连续性。
+5. 安全且唯一的映射进入下一步；不完整、歧义或不安全的映射只作为弱上下文，必要时阻断依赖步骤。
+6. 最终步骤通过 Verification 后，由 FAS 结合执行结果和桥接状态组织答案。
+
+这种类型化契约避免把任意文本直接拼入后续查询，也防止系统在跨源实体映射不可靠时强行生成答案。
 
 ## 技术栈
 
@@ -62,6 +84,7 @@ Task analysis and schema-aware routing
 |-- verification.py              # 查询结果验证
 |-- schema_index/                 # 预构建 Schema 检索索引
 |-- data/                         # 数据配置说明与 paired 数据资源
+|-- docs/images/                  # 系统架构与执行流程图
 |-- tools/check_project.py        # 项目结构与依赖自检
 |-- web/                          # React + Vite 前端
 |-- requirements.txt              # Python 依赖
@@ -195,23 +218,45 @@ The project supports SQL, Cypher, and multi-step queries across data sources. A 
 - FastAPI endpoints for queries, health checks, and the resource catalog
 - React + Vite views for answers, generated queries, execution steps, and runtime state
 
-## Architecture
+## Architecture and Execution Flow
 
-```text
-Natural-language question
-        |
-        v
-Task analysis and schema-aware routing
-        |
-        +--> SQL pipeline ------> SQLite
-        |
-        +--> Cypher pipeline ---> Neo4j
-        |
-        `--> Multi-step planner -> Bridge Resolver -> SQL/Cypher steps
-                                      |
-                                      v
-                         Verification and answer synthesis
-```
+![System architecture](docs/images/system-architecture.png)
+
+The Coordinator organizes each natural-language request into four stages: preliminary analysis, query execution, cross-source runtime, and result control.
+
+1. **Routing Agent** combines query intent, entity clues, and schema evidence to produce candidate SQL, Cypher, and cross-source routes.
+2. **Task Mode Analyzer** classifies the request as a single query, nested logic, multi-step execution, or cross-source execution.
+3. **Schema Plan Proposer** selects candidate resources and relevant schema items from the global schema catalog.
+4. **Coordinator** dispatches a single-source agent or invokes Multi-step Planner and Multi-step Runtime according to the route and task mode.
+5. **Verification Agent** checks execution state, result shape, and task contracts. A failed check may trigger bounded repair, regeneration, or rerouting.
+6. **Final Answer Synthesizer (FAS)** produces the answer from structured query results, bridge status, and runtime safety state.
+
+### SQL Agent
+
+![SQL Agent flow](docs/images/sql-agent-flow.png)
+
+The SQL path selects a target SQLite database and reads its complete `CREATE TABLE` schema. It builds a masked question, retrieves a small set of similar question-SQL examples, and extracts value hints from the database. These inputs form the SQL generation context. The generated query runs against SQLite; syntax errors, invalid columns, unexpected empty results, or result-shape mismatches enter a bounded repair loop. A successful run returns the SQL statement, structured rows, execution status, and trace.
+
+### Cypher Agent
+
+![Cypher Agent flow](docs/images/cypher-agent-flow.png)
+
+The Cypher path extracts node labels, node properties, relationship types, directions, and relationship properties from the selected Neo4j database. Schema grounding keeps graph structures relevant to the question together with any required path closure. A Cypher-pattern representation supplies topology and query constraints to generation. The resulting query is checked for relationship direction, property access, aggregation granularity, and result shape. Failed execution or verification enters a bounded repair loop; a successful run returns the Cypher statement, structured rows, execution status, and trace.
+
+### Multi-Step and Cross-Source Execution
+
+![Multi-step cross-source flow](docs/images/multi-step-runtime.png)
+
+Multi-step Planner decomposes a complex request into ordered steps with typed input and output contracts. Multi-step Runtime executes the plan and maintains structured intermediate variables:
+
+1. Execute the first query and extract identifier, name, metric, and attribute fields from its result.
+2. Inspect the next step's input contracts to determine whether it depends on previous output.
+3. For a type-compatible dependency within one source, bind the intermediate variable as a hard query constraint.
+4. For a dependency crossing SQL and Cypher, invoke Bridge Resolver to assess mapping uniqueness, coverage, and semantic continuity.
+5. Continue with a unique and safe mapping. Incomplete, ambiguous, or unsafe mappings remain soft context and can block a dependent step.
+6. After final verification, FAS combines query results and bridge state into the final answer.
+
+Typed contracts prevent arbitrary result text from being inserted into a downstream query and stop the system from forcing an answer when cross-source entity resolution is unreliable.
 
 ## Technology Stack
 
@@ -237,6 +282,7 @@ The recommended environment is Python 3.11, Node.js 22, and npm 10. Python versi
 |-- verification.py              # Result verification
 |-- schema_index/                 # Prebuilt schema retrieval indexes
 |-- data/                         # Data setup guide and paired resources
+|-- docs/images/                  # Architecture and execution flow diagrams
 |-- tools/check_project.py        # Project structure and dependency check
 |-- web/                          # React + Vite frontend
 |-- requirements.txt              # Python dependencies
