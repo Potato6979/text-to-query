@@ -10,6 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+BACKEND = ROOT / "backend"
 REQUIRED_INDEXES = (
     "faiss.index",
     "metadata.pkl",
@@ -37,9 +38,20 @@ def report(level: str, message: str) -> None:
 
 def check_python_sources() -> int:
     failures = 0
-    files = sorted(ROOT.glob("*.py"))
+    files = sorted(BACKEND.glob("*.py"))
     local_modules = {path.stem for path in files}
     referenced_local: set[str] = set()
+
+    required = (BACKEND / "__init__.py", BACKEND / "api_server.py", BACKEND / "main.py")
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing:
+        report("FAIL", "Missing backend entry files: " + ", ".join(missing))
+        failures += 1
+
+    root_modules = sorted(path.name for path in ROOT.glob("*.py"))
+    if root_modules:
+        report("FAIL", "Python modules must be placed under backend/: " + ", ".join(root_modules))
+        failures += 1
 
     for path in files:
         try:
@@ -63,7 +75,7 @@ def check_python_sources() -> int:
         report("FAIL", "Unclassified imports: " + ", ".join(missing_local))
         failures += 1
     else:
-        report("OK", f"Parsed {len(files)} Python source files; local imports are closed.")
+        report("OK", f"Parsed {len(files)} backend Python files; local imports are closed.")
     return failures
 
 

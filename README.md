@@ -6,7 +6,7 @@
 
 Text-to-Query 是一个面向 SQLite 与 Neo4j 的自然语言查询系统。系统接收用户问题，自动判断查询类型，检索相关 Schema，生成并执行 SQL 或 Cypher，在执行失败时尝试修复查询，并对结果进行验证和自然语言整理。
 
-项目支持 SQL、Cypher 以及跨数据源多步查询。FastAPI 后端负责查询编排和数据访问，React 前端提供用户视图与开发视图。`main.py` 中的 MQL 和向量查询函数为兼容接口，当前未实现对应查询后端。
+项目支持 SQL、Cypher 以及跨数据源多步查询。FastAPI 后端负责查询编排和数据访问，React 前端提供用户视图与开发视图。`backend/main.py` 中的 MQL 和向量查询函数为兼容接口，当前未实现对应查询后端。
 
 ## 主要功能
 
@@ -74,14 +74,15 @@ Multi-step Planner 将复杂问题拆分为具有输入输出契约的顺序步�
 
 ```text
 .
-|-- api_server.py                 # FastAPI 服务入口
-|-- coordinator.py                # 多智能体协调与运行决策
-|-- router.py / routing_*.py      # 查询路由、评分和保护逻辑
-|-- sql_*.py                      # SQL 检索、生成、修复与执行
-|-- cypher_*.py                   # Cypher 检索、生成、修复与执行
-|-- multi_step_*.py               # 多步查询规划与运行时
-|-- bridge_resolver.py            # 跨数据源实体桥接
-|-- verification.py              # 查询结果验证
+|-- backend/                      # Python 后端包
+|   |-- api_server.py             # FastAPI 服务入口
+|   |-- coordinator.py            # 多智能体协调与运行决策
+|   |-- router.py / routing_*.py  # 查询路由、评分和保护逻辑
+|   |-- sql_*.py                  # SQL 检索、生成、修复与执行
+|   |-- cypher_*.py               # Cypher 检索、生成、修复与执行
+|   |-- multi_step_*.py           # 多步查询规划与运行时
+|   |-- bridge_resolver.py        # 跨数据源实体桥接
+|   `-- verification.py          # 查询结果验证
 |-- schema_index/                 # 预构建 Schema 检索索引
 |-- data/                         # 数据配置说明与 paired 数据资源
 |-- docs/images/                  # 系统架构与执行流程图
@@ -137,10 +138,10 @@ $env:NEO4J_PASSWORD = "your-password"
 
 ## 运行
 
-在仓库根目录启动后端，因为 Schema 索引使用相对路径加载：
+在仓库根目录启动后端：
 
 ```powershell
-uvicorn api_server:app --host 127.0.0.1 --port 8000
+uvicorn backend.api_server:app --host 127.0.0.1 --port 8000
 ```
 
 另开终端启动前端：
@@ -204,7 +205,7 @@ python tools/check_project.py
 
 Text-to-Query is a natural-language query system for SQLite and Neo4j. It classifies each request, retrieves relevant schemas, generates and executes SQL or Cypher, repairs failed queries, verifies the result, and produces a natural-language answer.
 
-The project supports SQL, Cypher, and multi-step queries across data sources. A FastAPI backend coordinates query execution, while a React frontend provides user and developer views. The MQL and vector-query functions in `main.py` are compatibility interfaces; their corresponding query backends are not implemented.
+The project supports SQL, Cypher, and multi-step queries across data sources. A FastAPI backend coordinates query execution, while a React frontend provides user and developer views. The MQL and vector-query functions in `backend/main.py` are compatibility interfaces; their corresponding query backends are not implemented.
 
 ## Features
 
@@ -272,14 +273,15 @@ The recommended environment is Python 3.11, Node.js 22, and npm 10. Python versi
 
 ```text
 .
-|-- api_server.py                 # FastAPI service entry point
-|-- coordinator.py                # Multi-agent coordination and runtime decisions
-|-- router.py / routing_*.py      # Query routing, scoring, and guards
-|-- sql_*.py                      # SQL retrieval, generation, repair, and execution
-|-- cypher_*.py                   # Cypher retrieval, generation, repair, and execution
-|-- multi_step_*.py               # Multi-step planning and runtime
-|-- bridge_resolver.py            # Cross-source entity resolution
-|-- verification.py              # Result verification
+|-- backend/                      # Python backend package
+|   |-- api_server.py             # FastAPI service entry point
+|   |-- coordinator.py            # Multi-agent coordination and runtime decisions
+|   |-- router.py / routing_*.py  # Query routing, scoring, and guards
+|   |-- sql_*.py                  # SQL retrieval, generation, repair, and execution
+|   |-- cypher_*.py               # Cypher retrieval, generation, repair, and execution
+|   |-- multi_step_*.py           # Multi-step planning and runtime
+|   |-- bridge_resolver.py        # Cross-source entity resolution
+|   `-- verification.py          # Result verification
 |-- schema_index/                 # Prebuilt schema retrieval indexes
 |-- data/                         # Data setup guide and paired resources
 |-- docs/images/                  # Architecture and execution flow diagrams
@@ -335,10 +337,10 @@ Prebuilt indexes must match the actual databases. The API can start and return i
 
 ## Running
 
-Start the backend from the repository root because schema indexes are loaded through relative paths:
+Start the backend from the repository root:
 
 ```powershell
-uvicorn api_server:app --host 127.0.0.1 --port 8000
+uvicorn backend.api_server:app --host 127.0.0.1 --port 8000
 ```
 
 Start the frontend in another terminal:
